@@ -733,7 +733,7 @@ textarea:focus {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Zoom in on the image, focusing on the face */
-    object-position: center top; /* Anchor to top so heads don't get cut */
+    object-position: center 20%; /* Shifted from top to 20% to raise the face higher in the crop */
     display: block;
 }
 
