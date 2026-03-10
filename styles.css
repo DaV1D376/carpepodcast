@@ -605,17 +605,14 @@ textarea:focus {
     top: 0; left: 0; width: 100vw; height: 100vh;
     background: rgba(0,0,0,0.8);
     z-index: 1000;
-    display: flex;
+    display: none; /* Completely hidden from layout */
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
 }
 
 .modal-overlay.active {
+    display: flex; /* Only enters layout when active */
     opacity: 1;
-    pointer-events: auto;
 }
 
 .modal-content {
