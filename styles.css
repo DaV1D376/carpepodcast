@@ -874,11 +874,15 @@ textarea:focus {
         position: relative;
     }
     .collaboriamo-section .form-container {
-        padding-bottom: 15px;
+        padding-bottom: 20px;
         margin-bottom: 0;
     }
     .collaboriamo-section .btn-gradient {
         margin-bottom: 0;
+    }
+    /* Kill any whitespace after the last section */
+    .collaboriamo-section:last-of-type {
+        padding-bottom: 20px !important;
     }
     .collaboriamo-section .section-watermark {
         font-size: 30vw;

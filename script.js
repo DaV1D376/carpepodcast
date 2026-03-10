@@ -25,12 +25,20 @@ const defaultStats = {
   hours: 160,
 };
 
-// Initialize local storage if needed
-if (!localStorage.getItem("carpeGuests")) {
-  localStorage.setItem("carpeGuests", JSON.stringify(defaultGuests));
+// ALWAYS use the default guests from this file as the base.
+// This ensures that editing this file and pushing to GitHub updates the live site.
+// Admin-added guests (from localStorage) are merged on top.
+function getGuests() {
+    let adminGuests = [];
+    try {
+        adminGuests = JSON.parse(localStorage.getItem('carpeAdminGuests')) || [];
+    } catch(e) { adminGuests = []; }
+    return [...adminGuests, ...defaultGuests];
 }
-if (!localStorage.getItem("carpeStats")) {
-  localStorage.setItem("carpeStats", JSON.stringify(defaultStats));
+
+const defaultStatsObj = defaultStats;
+if (!localStorage.getItem('carpeStats')) {
+    localStorage.setItem('carpeStats', JSON.stringify(defaultStats));
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -151,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Index Page Logic ---
   const guestsGrid = document.getElementById("guests-grid");
   if (guestsGrid) {
-    const guests = JSON.parse(localStorage.getItem("carpeGuests"));
+    const guests = getGuests();
     guestsGrid.innerHTML = "";
 
     guests.forEach((guest) => {
@@ -223,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderAdminList() {
     if (!adminGuestsList) return;
-    const guests = JSON.parse(localStorage.getItem("carpeGuests")) || [];
+    const guests = getGuests();
     adminGuestsList.innerHTML = "";
 
     if (guests.length === 0) {
@@ -253,9 +261,9 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.addEventListener("click", (e) => {
         const index = parseInt(e.target.getAttribute("data-index"));
         if (confirm("Sei sicuro di voler eliminare questo ospite?")) {
-          let guests = JSON.parse(localStorage.getItem("carpeGuests")) || [];
+          let guests = JSON.parse(localStorage.getItem('carpeAdminGuests')) || [];
           guests.splice(index, 1);
-          localStorage.setItem("carpeGuests", JSON.stringify(guests));
+          localStorage.setItem('carpeAdminGuests', JSON.stringify(guests));
           renderAdminList(); // Re-render
         }
       });
@@ -284,14 +292,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       let guests = [];
       try {
-        guests = JSON.parse(localStorage.getItem("carpeGuests")) || [];
+        guests = JSON.parse(localStorage.getItem('carpeAdminGuests')) || [];
       } catch (e) {
         guests = [];
       }
 
       // Add to beginning of array so it shows up first
       guests.unshift(newGuest);
-      localStorage.setItem("carpeGuests", JSON.stringify(guests));
+      localStorage.setItem('carpeAdminGuests', JSON.stringify(guests));
 
       const btn = addGuestForm.querySelector("button");
       const originalText = btn.textContent;
