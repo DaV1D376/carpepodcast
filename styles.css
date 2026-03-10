@@ -22,11 +22,11 @@
 }
 
 :root {
-    --font-super-heavy: 'Gotham Ultra', sans-serif;
-    --font-heading: 'Gotham Black', sans-serif;
-    --font-black: 'Gotham Black', sans-serif; /* Alias for clarity */
+    --font-super-heavy: 'Montserrat', 'Gotham Ultra', 'Arial Black', sans-serif;
+    --font-heading: 'Montserrat', 'Gotham Black', 'Arial Black', sans-serif;
+    --font-black: 'Montserrat', 'Gotham Black', 'Arial Black', sans-serif;
     --font-signature: 'Mayonice', cursive;
-    --font-body: 'Myriad Pro', sans-serif;
+    --font-body: 'Myriad Pro', Helvetica, sans-serif;
     
     --col-black: #000000;
     --col-white: #ffffff;
@@ -443,12 +443,13 @@ body {
 
 /* COLLAB FORM SECTION */
 .collaboriamo-section {
-    padding: 150px 50px 100px;
+    padding: 100px 50px 30px;
     background: var(--col-white);
     color: var(--col-black);
     position: relative;
     overflow: hidden;
     margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .collaboriamo-section .section-watermark {
