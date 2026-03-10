@@ -11,10 +11,10 @@ const defaultGuests = [
   },
   {
     name: "LORENZO RUBINETTI",
-    bio: "",
+    bio: "Lorenzo Rubinetti è un esperto allenatore di pallacanestro italiano (Allenatore Nazionale F.I.P., F.I.B.A. e Coach WABC) con una lunghissima carriera alle spalle. Negli anni ha allenato e fatto da responsabile tecnico per tantissime realtà, sia giovanili (maschili e femminili) che senior. Tra le squadre in cui ha militato ci sono la Virtus Basket Aprilia, l'HSC Roma Basket, la Stella Azzurra, il San Raffaele e la Polisportiva Battipagliese. Vanta anche prestigiose esperienze internazionali, essendo stato Assistant Coach nella SuperLeague femminile in Arabia Saudita (Al Qadsiah) e avendo collaborato nello staff tecnico della La Salle University a Philadelphia (in NCAA Division I)",
     imageUrl:
-      "https://images.unsplash.com/photo-1544723795-3cj5a26b1f2o?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    videoUrl: "#",
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_130115_2587c09c-c26e-4e5e-9009-80b4deeff7e1.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
   },
 ];
 
@@ -29,21 +29,24 @@ const defaultStats = {
 // This ensures that editing this file and pushing to GitHub updates the live site.
 // Admin-added guests (from localStorage) are merged on top.
 function getGuests() {
-    let adminGuests = [];
-    try {
-        adminGuests = JSON.parse(localStorage.getItem('carpeAdminGuests')) || [];
-    } catch(e) { adminGuests = []; }
-    return [...adminGuests, ...defaultGuests];
+  let adminGuests = [];
+  try {
+    adminGuests = JSON.parse(localStorage.getItem("carpeAdminGuests")) || [];
+  } catch (e) {
+    adminGuests = [];
+  }
+  return [...adminGuests, ...defaultGuests];
 }
 
 const defaultStatsObj = defaultStats;
-if (!localStorage.getItem('carpeStats')) {
-    localStorage.setItem('carpeStats', JSON.stringify(defaultStats));
+if (!localStorage.getItem("carpeStats")) {
+  localStorage.setItem("carpeStats", JSON.stringify(defaultStats));
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   // --- Stats Counter Animation & Loading ---
-  const stats = JSON.parse(localStorage.getItem("carpeStats")) || defaultStats;
+  // Always use defaultStats from this file so editing here updates the live site
+  const stats = defaultStats;
   const statCards = document.querySelectorAll(".stat-card");
 
   if (statCards.length > 0) {
@@ -261,9 +264,10 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.addEventListener("click", (e) => {
         const index = parseInt(e.target.getAttribute("data-index"));
         if (confirm("Sei sicuro di voler eliminare questo ospite?")) {
-          let guests = JSON.parse(localStorage.getItem('carpeAdminGuests')) || [];
+          let guests =
+            JSON.parse(localStorage.getItem("carpeAdminGuests")) || [];
           guests.splice(index, 1);
-          localStorage.setItem('carpeAdminGuests', JSON.stringify(guests));
+          localStorage.setItem("carpeAdminGuests", JSON.stringify(guests));
           renderAdminList(); // Re-render
         }
       });
@@ -292,14 +296,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       let guests = [];
       try {
-        guests = JSON.parse(localStorage.getItem('carpeAdminGuests')) || [];
+        guests = JSON.parse(localStorage.getItem("carpeAdminGuests")) || [];
       } catch (e) {
         guests = [];
       }
 
       // Add to beginning of array so it shows up first
       guests.unshift(newGuest);
-      localStorage.setItem('carpeAdminGuests', JSON.stringify(guests));
+      localStorage.setItem("carpeAdminGuests", JSON.stringify(guests));
 
       const btn = addGuestForm.querySelector("button");
       const originalText = btn.textContent;

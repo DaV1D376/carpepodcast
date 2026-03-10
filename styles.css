@@ -599,6 +599,55 @@ textarea:focus {
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
+/* FOOTER */
+.site-footer {
+    background: var(--col-black);
+    color: var(--col-white);
+    padding: 50px 20px 30px;
+    text-align: center;
+}
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.footer-logo {
+    font-family: var(--font-super-heavy);
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.footer-tagline {
+    color: var(--col-text-gray);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.footer-links a {
+    color: var(--col-white);
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    background: var(--gradient-warm);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-copy {
+    font-size: 12px;
+    color: #555;
+}
+
 /* MODAL STYLES */
 .modal-overlay {
     position: fixed;
