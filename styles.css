@@ -867,14 +867,18 @@ textarea:focus {
 
     /* Collaboriamo Section styling */
     .collaboriamo-section {
-        padding: 60px 20px 0 !important; /* Force zero bottom padding */
+        padding: 60px 20px 0 !important;
         margin-top: 20px;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
         position: relative;
     }
     .collaboriamo-section .form-container {
-        padding-bottom: 30px; /* Only the form container needs a small pad */
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+    .collaboriamo-section .btn-gradient {
+        margin-bottom: 0;
     }
     .collaboriamo-section .section-watermark {
         font-size: 30vw;
