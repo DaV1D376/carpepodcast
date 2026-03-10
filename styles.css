@@ -1,0 +1,919 @@
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: local('Gotham Ultra'), local('Arial Black'), sans-serif;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Gotham Black';
+    src: local('Gotham Black'), local('Arial Black'), sans-serif;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Mayonice';
+    src: url('Mayonice.otf') format('opentype'),
+         url('Mayonice.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: local('Myriad Pro'), local('Helvetica'), sans-serif;
+}
+
+:root {
+    --font-super-heavy: 'Gotham Ultra', sans-serif;
+    --font-heading: 'Gotham Black', sans-serif;
+    --font-black: 'Gotham Black', sans-serif; /* Alias for clarity */
+    --font-signature: 'Mayonice', cursive;
+    --font-body: 'Myriad Pro', sans-serif;
+    
+    --col-black: #000000;
+    --col-white: #ffffff;
+    --col-bg: #ffffff;
+    --col-text-gray: #7a7a7a;
+    --col-watermark: #e6e6e6;
+    
+    --gradient-warm: linear-gradient(135deg, #d38312 0%, #a83279 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--col-bg);
+    color: var(--col-black);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background: var(--col-white);
+    position: relative; 
+    width: 100%;
+    z-index: 100;
+}
+.logo {
+    font-family: var(--font-super-heavy);
+    font-size: 44px;
+    letter-spacing: 1px;
+    color: var(--col-black);
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* BUTTONS */
+.btn {
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 14px;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-black {
+    background-color: var(--col-black);
+    color: var(--col-white);
+    border: 3px solid var(--col-black); /* Thicker border */
+    font-weight: 900;
+}
+.btn-black:hover {
+    background-color: var(--col-white);
+    color: var(--col-black);
+}
+.btn-outline {
+    background-color: transparent;
+    color: var(--col-black);
+    border: 3px solid var(--col-black); /* Thicker border */
+    font-family: var(--font-heading);
+    font-weight: 900;
+}
+.btn-outline:hover {
+    background-color: var(--col-black);
+    color: var(--col-white);
+}
+
+.guest-btn {
+    padding: 14px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.guest-btn:last-child {
+    margin-bottom: 0;
+}
+
+.btn-gradient {
+    background: var(--gradient-warm);
+    color: white;
+    font-size: 18px;
+    font-family: var(--font-heading);
+    padding: 18px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn-gradient:hover {
+    opacity: 0.9;
+    box-shadow: 0 5px 15px rgba(211, 131, 18, 0.4);
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    margin: 0 40px;
+    margin-bottom: 60px; /* Space for PODCAST text overflowing below */
+    overflow: visible; /* Allow text to extend below the image */
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-overlay {
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    text-align: right;
+    z-index: 10;
+}
+
+.signature {
+    font-family: 'Mayonice', cursive;
+    color: var(--col-white);
+    font-size: clamp(40px, 6vw, 80px);
+    font-weight: normal;
+    display: block;
+    transform: rotate(-5deg);
+    transform-origin: right center;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    white-space: nowrap;
+    margin-bottom: -10px;
+}
+
+.hero-title {
+    color: var(--col-white);
+    line-height: 0.85;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0;
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+}
+
+.hero-title .carpe {
+    font-family: var(--font-heading);
+    font-size: clamp(80px, 13vw, 170px);
+    display: block;
+    letter-spacing: -3px;
+}
+
+.hero-title .podcast {
+    font-family: var(--font-super-heavy);
+    font-size: clamp(65px, 11vw, 140px);
+    display: block;
+    letter-spacing: -3px;
+}
+
+/* STATS SECTION */
+.stats-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 220px; /* Fixed width to keep them balanced */
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.stat-card:hover {
+    transform: translateY(-10px) scale(1.05); /* Slight pop effect */
+}
+
+.stat-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+    background: var(--gradient-warm);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-number {
+    font-family: var(--font-super-heavy);
+    font-size: clamp(50px, 6vw, 70px);
+    line-height: 1;
+    margin-bottom: 5px;
+    letter-spacing: -2px;
+    /* Premium text stroke effect */
+    background: var(--gradient-warm);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.1));
+}
+
+.stat-number::before {
+    content: '+';
+    font-size: 0.5em;
+    vertical-align: top;
+    margin-right: 2px;
+    -webkit-text-fill-color: var(--col-black); /* Make the + solid black */
+}
+
+.stat-label {
+    font-family: var(--font-heading);
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--col-black);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Redesigned bar - subtle background with animated gradient overlay */
+.stat-bar {
+    width: 50px; /* Short elegant line */
+    height: 4px;
+    background: #eaeaea;
+    border-radius: 2px;
+    margin: 0 auto; /* Center the bar */
+    overflow: hidden;
+    position: relative;
+}
+
+.stat-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: var(--gradient-warm);
+    border-radius: 2px;
+    transition: width 1.5s ease-out;
+}
+
+.stat-card.animated .stat-bar::after {
+    width: 100%;
+}
+
+/* GUESTS SECTION */
+.guests-section {
+    padding: 100px 50px;
+    max-width: 1800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-header {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.watermark {
+    font-family: var(--font-super-heavy);
+    font-size: clamp(80px, 16vw, 220px);
+    color: var(--col-watermark);
+    position: absolute;
+    top: 50%;
+    left: 0; /* Changed from -20px to true 0 to start at edge */
+    transform: translateY(-50%) translateX(-5%); /* Slightly pulled back to cut the U like in design */
+    z-index: 0;
+    pointer-events: none;
+    line-height: 1;
+    letter-spacing: -2px;
+    white-space: nowrap; /* Prevent wrapping since it was changed to ULTIMI OSPITI */
+}
+
+.title-row {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+
+.title {
+    font-family: var(--font-super-heavy);
+    font-size: clamp(40px, 6vw, 80px);
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.slider-btn {
+    background: transparent;
+    border: 2px solid var(--col-black);
+    color: var(--col-black);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.slider-btn:hover {
+    background: var(--col-black);
+    color: var(--col-white);
+}
+
+.view-channel {
+    font-family: var(--font-heading);
+    color: var(--col-black);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.view-channel:hover {
+    text-decoration: underline;
+}
+
+.guests-slider-container {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    scroll-behavior: smooth; /* Enables smooth scrolling when buttons are clicked */
+    
+    /* Hide scrollbar for cleaner look */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* modern IE */
+}
+.guests-slider-container::-webkit-scrollbar {
+    display: none; /* WebKit */
+}
+
+.guests-grid {
+    display: inline-flex; /* Changed from grid to flex for horizontal scrolling */
+    gap: 40px;
+    padding-left: 20px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.guest-card {
+    display: flex;
+    flex-direction: column;
+    width: 380px; /* Fixed width for slider cards */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.guest-image-wrapper {
+    width: 100%;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    margin-bottom: 25px;
+    background: #e0e0e0;
+}
+
+.guest-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.guest-name {
+    font-family: var(--font-heading);
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.guest-bio {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--col-text-gray);
+    margin-bottom: 30px;
+    flex-grow: 1;
+    padding-right: 10vw;
+    /* Truncate text on the card to 3 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* COLLAB FORM SECTION */
+.collaboriamo-section {
+    padding: 150px 50px 100px;
+    background: var(--col-white);
+    color: var(--col-black);
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.collaboriamo-section .section-watermark {
+    /* Same styles as guests watermark, but lighter for white bg */
+    font-family: var(--font-super-heavy);
+    font-size: clamp(100px, 25vw, 400px);
+    color: rgba(0,0,0,0.03); /* Very subtle gray */
+    position: absolute;
+    top: 0;
+    left: -20px;
+    line-height: 0.8;
+    z-index: 0;
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Ensure section title stays above watermark */
+.collaboriamo-section .section-title {
+    position: relative;
+    z-index: 1;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.form-container p {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: var(--col-text-gray);
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: var(--font-heading);
+    font-size: 16px;
+    color: var(--col-black); /* Changed from var(--col-white) to var(--col-black) for white background */
+}
+
+/* Custom Toggle Buttons for Radio Inputs */
+.toggle-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.toggle-btn {
+    flex: 1;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0 !important;
+}
+
+.toggle-btn input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-btn span {
+    display: block;
+    text-align: center;
+    padding: 18px 20px;
+    border: 2px solid #eaeaea;
+    background: #fafafa;
+    color: var(--col-text-gray);
+    font-family: var(--font-body);
+    font-size: 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.toggle-btn input[type="radio"]:checked + span {
+    border-color: var(--col-black);
+    background: var(--col-black);
+    color: var(--col-white);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.toggle-btn:hover span {
+    border-color: #ccc;
+}
+.toggle-btn input[type="radio"]:checked:hover + span {
+    border-color: var(--col-black);
+}
+
+.form-group input[type="text"],
+input[type="email"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    padding: 18px 20px;
+    border: 2px solid #eaeaea;
+    background: #fafafa;
+    color: var(--col-black);
+    font-family: var(--font-body);
+    font-size: 16px;
+    border-radius: 4px; /* Slight rounding for a premium touch */
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--col-black);
+    background: var(--col-white);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* ADMIN PAGE */
+.admin-body {
+    background: #f5f5f5;
+}
+
+.admin-nav {
+    background: var(--col-white);
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.admin-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* MODAL STYLES */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content {
+    background: var(--col-white);
+    width: 90%;
+    max-width: 900px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.modal-overlay.active .modal-content {
+    transform: translateY(0);
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background: none;
+    border: none;
+    font-size: 36px;
+    line-height: 1;
+    color: var(--col-black);
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.3s;
+}
+
+.modal-close:hover {
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .modal-body {
+        flex-direction: row;
+    }
+}
+
+.modal-image-col {
+    flex: 1;
+    min-height: 300px;
+    background: #e0e0e0;
+}
+
+.modal-image-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.modal-info-col {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-info-col h2 {
+    font-family: var(--font-heading);
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    color: var(--col-black);
+}
+
+.modal-bio-text {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--col-text-gray);
+    margin-bottom: 30px;
+    white-space: pre-wrap; /* Allows formatting if newlines are present */
+}
+
+@media (max-width: 768px) {
+    .modal-info-col {
+        padding: 30px;
+    }
+    .modal-image-col {
+        height: 300px;
+    }
+}
+
+/* RESPONSIVE HERO FIXES */
+.admin-container h2 {
+    font-family: var(--font-super-heavy);
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.admin-container .form-group label {
+    color: var(--col-black);
+}
+
+.admin-container .form-group input,
+.admin-container .form-group textarea {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    color: var(--col-black);
+}
+
+.admin-container .form-group input:focus,
+.admin-container .form-group textarea:focus {
+    border-color: var(--col-black);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .guest-bio {
+        padding-right: 0;
+    }
+    .title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Navbar styling for mobile */
+    .navbar {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .logo {
+        font-size: 28px;
+    }
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-links .btn {
+        padding: 10px 15px;
+        font-size: 13px;
+        flex: 1;
+        text-align: center;
+    }
+
+    /* Hero section styling for mobile */
+    .hero {
+        margin: 0;
+        margin-bottom: 50px;
+        border-radius: 0; /* Remove rounding on mobile for full width */
+    }
+    .hero-img {
+        border-radius: 0;
+        min-height: 50vh; /* Ensure hero has semantic height on mobile */
+        object-position: center top;
+    }
+    .hero-overlay {
+        bottom: 0; /* Align text exactly at bottom edge on mobile to avoid excess whitespace */
+    }
+    .signature {
+        font-size: clamp(24px, 8vw, 35px);
+        margin-bottom: -5px;
+        padding-right: 5px;
+    }
+    .hero-title .carpe {
+        font-size: clamp(50px, 20vw, 100px);
+        letter-spacing: -1px;
+        line-height: 0.85;
+    }
+    .hero-title .podcast {
+        font-size: clamp(40px, 17vw, 90px);
+        letter-spacing: -1px;
+        line-height: 0.85;
+    }
+    /* Hide the overflow of the title if it bleeds out of the hero boundary */
+    .hero {
+        overflow: hidden;
+    }
+
+    /* Stats Section styling */
+    .stats-section {
+        padding: 40px 15px;
+    }
+    .stats-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .stat-card {
+        width: 45%; /* 2x2 grid on mobile */
+        min-width: 140px;
+        padding: 15px 0;
+    }
+    .stat-number {
+        font-size: clamp(35px, 8vw, 50px);
+    }
+    .stat-label {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    /* Guests Section styling */
+    .guests-section {
+        padding: 60px 20px;
+    }
+    .title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .watermark {
+        left: 0;
+        font-size: 30vw;
+        top: 0;
+        line-height: 0.8;
+        transform: translateY(-25%); /* Perfect centering behind the title */
+    }
+    .guests-grid {
+        gap: 20px;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+    .guest-card {
+        width: 85vw; /* Almost full width for mobile swiping */
+        max-width: 350px;
+    }
+    .guest-bio {
+        padding-right: 0;
+    }
+    .slider-controls {
+        display: none; /* Hide arrows on mobile, users will naturally swipe */
+    }
+
+    /* Collaboriamo Section styling */
+    .collaboriamo-section {
+        padding: 80px 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .collaboriamo-section .section-watermark {
+        font-size: 30vw;
+        top: 80px; /* Aligns roughly with the padding-top where the title starts */
+        left: -10px;
+        transform: translateY(-25%); /* Perfect centering behind the title */
+    }
+    .form-container h2 {
+        font-size: 36px;
+    }
+    .form-container p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .toggle-buttons {
+        flex-direction: column; /* Stack radio buttons on mobile */
+        gap: 10px;
+    }
+    .toggle-btn span {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    /* Modal styling */
+    .modal-content {
+        width: 95%;
+        max-height: 90vh; /* Prevent modal from exceeding screen height */
+        overflow-y: auto; /* Allow scrolling inside modal if content is long */
+    }
+    .modal-image-col {
+        height: 250px;
+        min-height: 250px;
+    }
+    .modal-info-col {
+        padding: 25px 20px;
+    }
+    .modal-info-col h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .modal-bio-text {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+    .modal-close {
+        top: 10px;
+        right: 15px;
+        background: rgba(255,255,255,0.8);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

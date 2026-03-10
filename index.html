@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARPE PODCAST</title>
+    <meta name="description" content="Sito ufficiale di Carpe Podcast di Davide Carpentieri">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">CARPE PODCAST</div>
+        <div class="nav-links">
+            <a href="https://www.youtube.com/@CarpePodcast" target="_blank" class="btn btn-black">GUARDA ORA</a>
+            <a href="#collaboriamo" class="btn btn-outline">SPONSOR</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <picture>
+            <source media="(max-width: 768px)" srcset="IMAGES/hero mobile.jpeg">
+            <img src="IMAGES/hf_20260310_121233_d1d69280-e91d-43b2-9158-c05c67af59c5.jpeg" alt="Davide Carpentieri Hero" class="hero-img">
+        </picture>
+        <div class="hero-overlay">
+            <span class="signature">Davide Carpentieri</span>
+            <h1 class="hero-title">
+                <span class="carpe">CARPE</span>
+                <span class="podcast">PODCAST</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">▶</div>
+                <div class="stat-number" data-target="4000">0</div>
+                <div class="stat-label">ISCRITTI YOUTUBE</div>
+                <div class="stat-bar"></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">👁</div>
+                <div class="stat-number" data-target="29000">0</div>
+                <div class="stat-label">VIEWS YOUTUBE</div>
+                <div class="stat-bar"></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">♪</div>
+                <div class="stat-number" data-target="23000">0</div>
+                <div class="stat-label">VIEWS TIKTOK</div>
+                <div class="stat-bar"></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⏱</div>
+                <div class="stat-number" data-target="150" data-suffix="h">0</div>
+                <div class="stat-label">ORE DI VISUALIZZAZIONE</div>
+                <div class="stat-bar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guests Section -->
+    <section class="guests-section">
+        <div class="section-header">
+            <h2 class="watermark">ULTIMI OSPITI</h2>
+            <div class="title-row">
+                <h2 class="title">ULTIMI OSPITI</h2>
+                <div class="carousel-controls">
+                    <button class="slider-btn" id="prev-guest">&#10094;</button>
+                    <button class="slider-btn" id="next-guest">&#10095;</button>
+                    <a href="#" class="view-channel" style="margin-left: 20px;">VAI AL CANALE</a>
+                </div>
+            </div>
+        </div>
+        <div class="guests-slider-container" id="guests-slider-container">
+            <div class="guests-grid" id="guests-grid">
+                <!-- Guests will be dynamically injected here by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaboriamo Section -->
+    <section class="collaboriamo-section" id="collaboriamo">
+        <div class="section-watermark">SPONSOR</div>
+        <div class="form-container">
+            <h2 class="section-title">COLLABORIAMO</h2>
+            <p>Sei un creatore che vuole raccontarsi o un'azienda che cerca visibilità? Compila il form qui sotto.</p>
+            <form id="collab-form">
+                <div class="form-group toggle-group">
+                    <label>Sono un:</label>
+                    <div class="toggle-buttons">
+                        <label class="toggle-btn">
+                            <input type="radio" name="type" value="sponsor" checked>
+                            <span>Vorrei diventare uno SPONSOR</span>
+                        </label>
+                        <label class="toggle-btn">
+                            <input type="radio" name="type" value="ospite">
+                            <span>Vorrei partecipare come OSPITE</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Nome / Nome Azienda" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Raccontaci brevemente chi sei o cosa fa la tua azienda..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-gradient">INVIA RICHIESTA</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Guest Details Modal -->
+    <div id="guest-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-col">
+                    <img id="modal-image" src="" alt="">
+                </div>
+                <div class="modal-info-col">
+                    <h2 id="modal-name">NOME OSPITE</h2>
+                    <div id="modal-bio" class="modal-bio-text">Bio content goes here...</div>
+                    <a href="#" id="modal-video-link" class="btn btn-black" target="_blank">GUARDA LA PUNTATA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Carpe Podcast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="admin-body">
+    <nav class="navbar admin-nav" style="position: relative; background: var(--col-white);">
+        <div class="logo">CARPE ADMIN</div>
+        <div class="nav-links">
+            <a href="index.html" class="btn btn-outline">Vai al Sito</a>
+        </div>
+    </nav>
+
+    <div class="admin-container">
+        <h2>Gestione Statistiche</h2>
+        <p style="margin-bottom: 20px; color: #666;">Aggiorna i numeri mostrati nella sezione dati della homepage.</p>
+        <form id="stats-form" style="margin-bottom: 50px;">
+            <div style="display: flex; gap: 20px;">
+                <div class="form-group" style="flex: 1;">
+                    <label for="stat-yt-subs">Iscritti YouTube</label>
+                    <input type="number" id="stat-yt-subs" required>
+                </div>
+                <div class="form-group" style="flex: 1;">
+                    <label for="stat-yt-views">Views YouTube</label>
+                    <input type="number" id="stat-yt-views" required>
+                </div>
+            </div>
+            <div style="display: flex; gap: 20px;">
+                <div class="form-group" style="flex: 1;">
+                    <label for="stat-tk-views">Views TikTok</label>
+                    <input type="number" id="stat-tk-views" required>
+                </div>
+                <div class="form-group" style="flex: 1;">
+                    <label for="stat-hours">Ore di Visualizzazione</label>
+                    <input type="number" id="stat-hours" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-black" style="font-size: 16px;">SALVA STATISTICHE</button>
+        </form>
+
+        <hr style="margin: 50px 0; border: none; border-top: 1px solid #ddd;">
+
+        <h2>Aggiungi Nuovo Ospite</h2>
+        <p style="margin-bottom: 30px; color: #666;">
+            Compila questo modulo per simulare l'aggiunta di un nuovo ospite alla pagina principale. I dati verranno salvati nel tuo browser (Local Storage).
+        </p>
+        <form id="add-guest-form">
+            <div class="form-group">
+                <label for="guest-name">Nome dell'Ospite</label>
+                <input type="text" id="guest-name" placeholder="Es. Mario Rossi" required>
+            </div>
+            <div class="form-group">
+                <label for="guest-bio">Biografia / Descrizione (Format Myriad Pro)</label>
+                <textarea id="guest-bio" rows="6" placeholder="Inserisci una breve bio..." required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="guest-image">URL Immagine</label>
+                <input type="url" id="guest-image" placeholder="https://..." required>
+                <small style="color: #888; display: block; margin-top: 5px;">Link diretto a un'immagine web o Unsplash.</small>
+            </div>
+            <div class="form-group">
+                <label for="guest-video">Link Video (GUARDA ORA)</label>
+                <input type="url" id="guest-video" placeholder="Es: https://youtube.com/..." required>
+            </div>
+            <button type="submit" class="btn btn-black" style="width: 100%; font-size: 18px; padding: 18px;">AGGIUNGI OSPITE</button>
+        </form>
+
+        <hr style="margin: 50px 0; border: none; border-top: 1px solid #ddd;">
+        
+        <h2>Gestione Ospiti</h2>
+        <div id="admin-guests-list" style="display: flex; flex-direction: column; gap: 15px;">
+            <!-- Rendered by script.js -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
