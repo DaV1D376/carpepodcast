@@ -18,7 +18,7 @@ const defaultGuests = [
   },
   {
     name: "MATTEO LAROSA",
-    bio: "Matteo LaRosa è un ragzzo squisito con un passato tra calcio e basket. Ci ha raccontato le sue esperienze nel mondo dello sport, sia nei suoi primi anni in ambito cestistico che in ambito calcistico, crescendo.",
+    bio: "Matteo LaRosa è un ragazzo squisito con un passato tra calcio e basket. Ci ha raccontato le sue esperienze nel mondo dello sport, sia nei suoi primi anni in ambito cestistico che in ambito calcistico, crescendo.",
     imageUrl:
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260311_100701_313c92a9-8f15-4f9c-a3d1-ca8dbad9b4ab.jpeg&w=1280&q=85",
     videoUrl: "https://youtu.be/zgtL4ejM8Is?si=4qD-D3F9xibe549B",
