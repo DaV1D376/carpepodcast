@@ -16,6 +16,27 @@ const defaultGuests = [
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_130115_2587c09c-c26e-4e5e-9009-80b4deeff7e1.jpeg&w=1280&q=85",
     videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
   },
+  {
+    name: "MATTEO LA ROSA",
+    bio: "Lorenzo Rubinetti è un esperto allenatore di pallacanestro italiano (Allenatore Nazionale F.I.P., F.I.B.A. e Coach WABC) con una lunghissima carriera alle spalle. Negli anni ha allenato e fatto da responsabile tecnico per tantissime realtà, sia giovanili (maschili e femminili) che senior. Tra le squadre in cui ha militato ci sono la Virtus Basket Aprilia, l'HSC Roma Basket, la Stella Azzurra, il San Raffaele e la Polisportiva Battipagliese. Vanta anche prestigiose esperienze internazionali, essendo stato Assistant Coach nella SuperLeague femminile in Arabia Saudita (Al Qadsiah) e avendo collaborato nello staff tecnico della La Salle University a Philadelphia (in NCAA Division I)",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_130115_2587c09c-c26e-4e5e-9009-80b4deeff7e1.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
+  },
+  {
+    name: "EDOARDO TERENZI",
+    bio: "Edoardo Terenzi è un dirigente sportivo dilettantistico, noto principalmente per essere il Presidente dei Blackreapers, una delle squadre più strutturate e attive all'interno della Lega Calcio a 8 (Lega C8) di Roma.,
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260311_095005_4d74e477-43ca-4a80-8bac-ab3c3d8b05a6.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/3inQKTTrSyI?si=Idr2fHLnGTxe5YhF",
+  },
+  {
+    name: "MATTIA PARADISI",
+    bio: "Lorenzo Rubinetti è un esperto allenatore di pallacanestro italiano (Allenatore Nazionale F.I.P., F.I.B.A. e Coach WABC) con una lunghissima carriera alle spalle. Negli anni ha allenato e fatto da responsabile tecnico per tantissime realtà, sia giovanili (maschili e femminili) che senior. Tra le squadre in cui ha militato ci sono la Virtus Basket Aprilia, l'HSC Roma Basket, la Stella Azzurra, il San Raffaele e la Polisportiva Battipagliese. Vanta anche prestigiose esperienze internazionali, essendo stato Assistant Coach nella SuperLeague femminile in Arabia Saudita (Al Qadsiah) e avendo collaborato nello staff tecnico della La Salle University a Philadelphia (in NCAA Division I)",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_130115_2587c09c-c26e-4e5e-9009-80b4deeff7e1.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
+  },
 ];
 
 const defaultStats = {
