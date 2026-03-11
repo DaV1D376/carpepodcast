@@ -233,19 +233,44 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Collab Form Logic ---
   const collabForm = document.getElementById("collab-form");
   if (collabForm) {
-    collabForm.addEventListener("submit", (e) => {
+    collabForm.addEventListener("submit", async (e) => {
       e.preventDefault();
-      // Just simulating submission
       const btn = collabForm.querySelector("button");
       const originalText = btn.textContent;
-      btn.textContent = "INVIATO!";
-      btn.style.background = "#28a745";
+      
+      btn.textContent = "INVIO IN CORSO...";
+      btn.style.opacity = "0.7";
+      btn.disabled = true;
 
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = "var(--gradient-warm)";
-        collabForm.reset();
-      }, 3000);
+      try {
+        const formData = new FormData(collabForm);
+        const response = await fetch(collabForm.action, {
+          method: collabForm.method,
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          btn.textContent = "INVIATO!";
+          btn.style.background = "#28a745";
+          collabForm.reset();
+        } else {
+          btn.textContent = "ERRORE!";
+          btn.style.background = "#dc3545";
+        }
+      } catch (error) {
+        btn.textContent = "ERRORE!";
+        btn.style.background = "#dc3545";
+      } finally {
+        btn.style.opacity = "1";
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.style.background = "var(--gradient-warm)";
+          btn.disabled = false;
+        }, 3000);
+      }
     });
   }
 
