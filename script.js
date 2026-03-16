@@ -24,6 +24,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/zgtL4ejM8Is?si=4qD-D3F9xibe549B",
   },
   {
+    name: "LUCA OTTAVIANI",
+    bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260316_192616_0edfd75d-ccb6-4a19-ad35-ef0b60421c91.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/73--rySBL9E?si=zOPsBze3fh-UGvhf",
+  },
+  {
     name: "EDOARDO TERENZI",
     bio: "Edoardo Terenzi è un dirigente sportivo dilettantistico, noto principalmente per essere il Presidente dei Blackreapers, una delle squadre più strutturate e attive all'interno della Lega Calcio a 8 (Lega C8) di Roma.",
     imageUrl:
@@ -41,9 +48,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4000,
-  ytViews: 29000,
-  tkViews: 23000,
-  hours: 160,
+  ytViews: 33000,
+  tkViews: 26000,
+  hours: 260,
 };
 
 // ALWAYS use the default guests from this file as the base.
@@ -237,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       const btn = collabForm.querySelector("button");
       const originalText = btn.textContent;
-      
+
       btn.textContent = "INVIO IN CORSO...";
       btn.style.opacity = "0.7";
       btn.disabled = true;
@@ -248,8 +255,8 @@ document.addEventListener("DOMContentLoaded", () => {
           method: collabForm.method,
           body: formData,
           headers: {
-            'Accept': 'application/json'
-          }
+            Accept: "application/json",
+          },
         });
 
         if (response.ok) {
