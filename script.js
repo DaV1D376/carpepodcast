@@ -41,7 +41,7 @@ const defaultGuests = [
     name: "MAURO SIGISMONDI",
     bio: "Mauro Sigismondi è una delle tantissime colonne della squadra Sangiovannella. Un uomo con dei valori e dei principi. La sua dedizione, la sua determinazione e la tenacia dentro e fuori lo spogliatoio. Non molla mai, neanche un centimetro, per il gruppo e per la squadra in generale. Lui risponde sempre presente, soprattutto nei momenti più difficili e complicati della stagione. Tutti gli approfondimenti del mondo Sangiovannella e non solo, li trovate nella puntata integrale sul canale.",
     imageUrl:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260326_204309_ba8e0fb1-9603-4bd9-96e7-93b19d1456e4.jpeg&w=1280&q=85",
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260328_122055_c62672a8-6cf7-442d-9961-d5a6a957a8b4.png&w=1280&q=85",
     videoUrl: "https://youtu.be/ocxfEmZSWqE?si=T-MxaOdZL0sjaM2P",
   },
   {
