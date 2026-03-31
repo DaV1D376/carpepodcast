@@ -38,6 +38,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/3inQKTTrSyI?si=Idr2fHLnGTxe5YhF",
   },
   {
+    name: "ALESSANDRO BATTISTONI",
+    bio: "Alessandro Battistoni è un grandissimo giocatore di Calcio a 5. Presente in tantissimi tornei su Roma nella Divisione Romana Tornei soprattutto con il Sjca Dragons. Da evidenziare nella sua carriera calcistica gli anni d'oro alle Palme. Oltre il calcio all'interno della puntata abbiamo approfondito la sua pazzia fatta qualche anno fa... Il lancio fatto dall'aereoplano con il paracadute. Insomma puntata come al solito ricca di emozioni e di racconti generali sul calcio e non solo...",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260331_212433_d91d2bcc-f27d-4878-ba4c-a353759072a3.png&w=1280&q=85",
+    videoUrl: "https://youtu.be/HcWEAZTpQ6M?si=Y10_294hmY3P2Uwc",
+  },
+  {
     name: "MAURO SIGISMONDI",
     bio: "Mauro Sigismondi è una delle tantissime colonne della squadra Sangiovannella. Un uomo con dei valori e dei principi. La sua dedizione, la sua determinazione e la tenacia dentro e fuori lo spogliatoio. Non molla mai, neanche un centimetro, per il gruppo e per la squadra in generale. Lui risponde sempre presente, soprattutto nei momenti più difficili e complicati della stagione. Tutti gli approfondimenti del mondo Sangiovannella e non solo, li trovate nella puntata integrale sul canale.",
     imageUrl:
@@ -55,9 +62,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4000,
-  ytViews: 34000,
-  tkViews: 29000,
-  hours: 280,
+  ytViews: 42000,
+  tkViews: 32000,
+  hours: 300,
 };
 
 // ALWAYS use the default guests from this file as the base.
