@@ -24,6 +24,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/zgtL4ejM8Is?si=4qD-D3F9xibe549B",
   },
   {
+    name: "REAL TORRE MAURA",
+    bio: "Danilo De Felice il presidente del Real Torre Maura e Gianluca Sforza il capitano. Due figure importantissime della squadra. Due ruoli fondamentali sia dentro che fuori dal campo della società. La grinta e la leadership di Gianluca Sforza e la visione dall'alto e la dedizione del presidente che ogni giorno, cerca di migliorare la squadra a 360°.",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260407_152337_107cfecd-c2ff-4ec1-ae31-f430b813381c.png&w=1280&q=85",
+    videoUrl: "https://youtu.be/xEsmjsfyZ_Q?si=xnpXYZBkhec3N5ZZ",
+  },
+  {
     name: "LUCA OTTAVIANI",
     bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
     imageUrl:
@@ -62,9 +69,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4000,
-  ytViews: 42000,
-  tkViews: 32000,
-  hours: 300,
+  ytViews: 50000,
+  tkViews: 34000,
+  hours: 350,
 };
 
 // ALWAYS use the default guests from this file as the base.
