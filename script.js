@@ -45,6 +45,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/3inQKTTrSyI?si=Idr2fHLnGTxe5YhF",
   },
   {
+    name: "DARIO DE ROCCHIS",
+    bio: "Dario De Rocchis è un coach di basket, che ha fatto tantissime esperienze e allenato in diverse squadre. Stella Azzurra, HSC, Stelle Marine e tantissimo altro... Un coach molto preparato e professionale sotto tutti i punti di vista. Puntata perfetta per tutti gli appassionati del basket a 360°",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260413_210557_80367bdc-52b3-415c-b04d-efb50d6088fe.png&w=1280&q=85",
+    videoUrl: "https://youtu.be/W5PhYMv94Zc?si=stHlOJ60CuZZZlvo",
+  },
+  {
     name: "ALESSANDRO BATTISTONI",
     bio: "Alessandro Battistoni è un grandissimo giocatore di Calcio a 5. Presente in tantissimi tornei su Roma nella Divisione Romana Tornei soprattutto con il Sjca Dragons. Da evidenziare nella sua carriera calcistica gli anni d'oro alle Palme. Oltre il calcio all'interno della puntata abbiamo approfondito la sua pazzia fatta qualche anno fa... Il lancio fatto dall'aereoplano con il paracadute. Insomma puntata come al solito ricca di emozioni e di racconti generali sul calcio e non solo...",
     imageUrl:
@@ -69,9 +76,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4000,
-  ytViews: 50000,
-  tkViews: 34000,
-  hours: 350,
+  ytViews: 52000,
+  tkViews: 35000,
+  hours: 370,
 };
 
 // ALWAYS use the default guests from this file as the base.
