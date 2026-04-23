@@ -17,6 +17,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
   },
   {
+    name: "FABIO RASO",
+    bio: "Fabio Raso è un ospite che è perfetto sul mondo telecronache sportive e non solo. Responsabile di Flash Sport, radio e gestione dei circoli sportivi, con tornei e partite. Tantissime attività sul panorama calcistico e amatoriale a 360°. Cura sempre tutti i dettagli con squadre e giocatori. Un puntata piena di emozioni come sempre... Un tuttofare nel vero senso della parola dentro e fuori dal campo",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260423_064322_0e89845d-3112-4064-b28e-8459db1a87bb.png&w=1280&q=85",
+    videoUrl: "https://youtu.be/SdzRAaDilZ0?si=PBkOPynagcjOLfvS",
+  },
+  {
     name: "MATTEO LAROSA",
     bio: "Matteo LaRosa è un ragazzo squisito con un passato tra calcio e basket. Ci ha raccontato le sue esperienze nel mondo dello sport, sia nei suoi primi anni in ambito cestistico che in ambito calcistico, crescendo.",
     imageUrl:
