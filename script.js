@@ -17,6 +17,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
   },
   {
+    name: "FABRIZIO PASQUALETTI",
+    bio: "Fabrizio Pasqualetti è il direttore della squadra Core De Roma (squadra della Lega Calcio a 8). Una figura all'interno della società indispensabile e fondamentale. Un simbolo di questa squadra e di questa società. Se parliamo di Core De Roma, parliamo ovviamente di Fabrizio Pasqualetti, che ci ha raccontato nei minimi dettagli l'organizzazione, il dietro le quinte e gli obiettivi societari. Una persona d'oro sotto tutti i punti di vista.",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260414_050855_89dc5df3-269d-450b-a73c-9864b2ceca1a.png&w=1920&q=85",
+    videoUrl: "https://youtu.be/ljrVVvPIUtY?si=IHb2BTacRZEXAFZ9",
+  },
+  {
     name: "FABIO RASO",
     bio: "Fabio Raso è un ospite che è perfetto sul mondo telecronache sportive e non solo. Responsabile di Flash Sport, radio e gestione dei circoli sportivi, con tornei e partite. Tantissime attività sul panorama calcistico e amatoriale a 360°. Cura sempre tutti i dettagli con squadre e giocatori. Un puntata piena di emozioni come sempre... Un tuttofare nel vero senso della parola dentro e fuori dal campo",
     imageUrl:
@@ -83,9 +90,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4000,
-  ytViews: 52000,
-  tkViews: 35000,
-  hours: 370,
+  ytViews: 60000,
+  tkViews: 40000,
+  hours: 385,
 };
 
 // ALWAYS use the default guests from this file as the base.
