@@ -52,6 +52,27 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/hI9cQrg5WDY?si=BSPNJPKkO2rpFjqA",
   },
   {
+    name: "SAMUEL E VINCENT FABRIZIO",
+    bio: "Samuel Fabrizio e Vincent Fabrizio sono due fratelli meravigliosi e soprattutto fortissimi a giocare a calcio. Abbiamo approfondito all'interno della puntata la loro storia e le loro rispettive carriere calcistiche. Le loro squadre e le loro esperienze a 360°. Tantissime qualità in mezzo al campo, tecnica e velocità. Due ragazzi che non hanno bisogno di altre presentazioni... Puntata ricca di emozioni e tantissimi aneddoti molto simpatici. Oltre alle doti dentro un campo di calcio, sono due ragazzi super anche fuori dal campo. In sintesi sono due ragazzi clamorosi. Puntata da non perdere...",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780256120/ChatGPT_Image_31_mag_2026_21_35_11_bh4zk2.png",
+    videoUrl: "https://youtu.be/S0hA0QP8_Ww?si=tRh7Sj4cowrRQnjc",
+  },
+  {
+    name: "DANIEL TROMBETTI",
+    bio: "Daniel Trombetti è un super organizzatore di tornei di calcio su Roma. Soprattutto il torneo Bestnfra, presso il circolo Lodigiani a Borghesiana. Torneo in particolare di calciotto, con regolamento, premi e massima professionalità sull'organizzazione in generale. Un organizzatore e una persona determinata, precisa e soprattutto con tanta passione. Nella puntata abbiamo approfondito a 360° il torneo, con aneddoti e la sua storia dall'inizio fino ad oggi. Insomma panoramica completa del dietro le quinte di questa organizzazione e di questo torneo.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780257315/ChatGPT_Image_31_mag_2026_21_55_06_o9pue5.png",
+    videoUrl: "https://youtu.be/4T-756D2O50?si=Nh9e9w_FehnqSgLO",
+  },
+  {
+    name: "LORENZO FALCETTA",
+    bio: "Lorenzo Falcetta è un giocatore di calcio che fa parte della Sangiovannella momentaneamente, in seconda categoria. Tantissime squadre e una storia tutta da scoprire. Dalle giovanili fino ad oggi, tra premi, coppe, goal, vittorie e sconfitte. Una puntata completa sul mondo del calcio e non solo... Emozioni e colpi di scena. Un ragazzo fuori dal campo incredibile... Buono, disponibile e gentile. Ladispoli, Fregene, Urbetevere, Focene, Sangiovannella... Insomma tanta carne al fuoco. Puntata da non perdere assolutamente.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780256736/ChatGPT_Image_31_mag_2026_21_45_26_jka3r2.png",
+    videoUrl: "https://youtu.be/0cYkpM9Cim0?si=5jpaJ7-pAl1dUJZK",
+  },
+  {
     name: "LUCA OTTAVIANI",
     bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
     imageUrl:
@@ -96,10 +117,10 @@ const defaultGuests = [
 ];
 
 const defaultStats = {
-  ytSubs: 4000,
-  ytViews: 60000,
-  tkViews: 40000,
-  hours: 385,
+  ytSubs: 4100,
+  ytViews: 80000,
+  tkViews: 65000,
+  hours: 500,
 };
 
 // ALWAYS use the default guests from this file as the base.
