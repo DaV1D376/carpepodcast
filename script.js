@@ -45,6 +45,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/xEsmjsfyZ_Q?si=xnpXYZBkhec3N5ZZ",
   },
   {
+    name: "EMILIO CARNEVALE",
+    bio: "Emilio Carnevale é un mister di calcio a 11, che allena attualmente il Real Torre Maura in terza categoria. Ma praticamente ha ottenuto la matematica certezza del primo posto in classifica e la vittoria del campionato. Il mister Emilio Carnevale detto anche il COMANDATE. Soprannome dato proprio dal presidente della squadra… Danilo De Felice. Abbiamo parlato anche dei suoi anni precedenti con salvezze, sconfitte, vittorie e momenti difficili. Prima di essere un mister di calcio, lui é una persona meravigliosa sotto tutti i punti di vista. Il saper gestire lo spogliatoio, diverse situazioni di gioco, gli allenamenti, le formazioni e le partite. Tutto all’interno di questa super puntata integrale.",
+    imageUrl:
+      "https://chatgpt.com/backend-api/estuary/content?id=file_0000000047e87246984e26b861ac4def&ts=494515&p=fsns&cid=1&sig=5f348018395036e3167cece8bc087c93e99ba4db7d00fe4a727cb85eb4e21296&v=0",
+    videoUrl: "https://youtu.be/hI9cQrg5WDY?si=BSPNJPKkO2rpFjqA",
+  },
+  {
     name: "LUCA OTTAVIANI",
     bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
     imageUrl:
