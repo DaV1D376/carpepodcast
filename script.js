@@ -48,7 +48,7 @@ const defaultGuests = [
     name: "EMILIO CARNEVALE",
     bio: "Emilio Carnevale é un mister di calcio a 11, che allena attualmente il Real Torre Maura in terza categoria. Ma praticamente ha ottenuto la matematica certezza del primo posto in classifica e la vittoria del campionato. Il mister Emilio Carnevale detto anche il COMANDATE. Soprannome dato proprio dal presidente della squadra… Danilo De Felice. Abbiamo parlato anche dei suoi anni precedenti con salvezze, sconfitte, vittorie e momenti difficili. Prima di essere un mister di calcio, lui é una persona meravigliosa sotto tutti i punti di vista. Il saper gestire lo spogliatoio, diverse situazioni di gioco, gli allenamenti, le formazioni e le partite. Tutto all’interno di questa super puntata integrale.",
     imageUrl:
-      "https://chatgpt.com/backend-api/estuary/content?id=file_0000000047e87246984e26b861ac4def&ts=494515&p=fsns&cid=1&sig=5f348018395036e3167cece8bc087c93e99ba4db7d00fe4a727cb85eb4e21296&v=0",
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780255328/6edcd018-d36c-4666-aeb7-2fcc1057cebe_1_fz36ts.png",
     videoUrl: "https://youtu.be/hI9cQrg5WDY?si=BSPNJPKkO2rpFjqA",
   },
   {
