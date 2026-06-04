@@ -10,6 +10,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/qdaCi0gNcKs?si=Dy3GYxtCmMudIhx1",
   },
   {
+    name: "STEFANO CLORI",
+    bio: "Stefano Clori é stato un attaccante e un bomber clamoroso! Quasi 500 goal in carriera. Un goleador implacabile all’interno dell’area di rigore. Una carriera ricca di emozioni, sia positive e sia negative. Diverse squadre che lo hanno reso protagonista e diverse squadre che é stato messo al centro del progetto. La parentesi in età adolescenziale al Brescia, la super stagione al Poggio Nativo, adesso modalità mister al Torrenova. Il tutto lo abbiamo approfondito all’interno della puntata! Con aneddoti, storie e approfondimenti generali.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780605348/ChatGPT_Image_4_giu_2026_22_34_43_kflttl.png",
+    videoUrl: "https://youtu.be/Yjj4CRpR3I8?si=OXuwPVJcK-La8Faj",
+  },
+  {
     name: "LORENZO RUBINETTI",
     bio: "Lorenzo Rubinetti è un esperto allenatore di pallacanestro italiano (Allenatore Nazionale F.I.P., F.I.B.A. e Coach WABC) con una lunghissima carriera alle spalle. Negli anni ha allenato e fatto da responsabile tecnico per tantissime realtà, sia giovanili (maschili e femminili) che senior. Tra le squadre in cui ha militato ci sono la Virtus Basket Aprilia, l'HSC Roma Basket, la Stella Azzurra, il San Raffaele e la Polisportiva Battipagliese. Vanta anche prestigiose esperienze internazionali, essendo stato Assistant Coach nella SuperLeague femminile in Arabia Saudita (Al Qadsiah) e avendo collaborato nello staff tecnico della La Salle University a Philadelphia (in NCAA Division I)",
     imageUrl:
