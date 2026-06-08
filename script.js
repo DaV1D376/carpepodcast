@@ -131,7 +131,7 @@ const defaultGuests = [
 ];
 
 const defaultStats = {
-  ytSubs: 4.1,
+  ytSubs: 4100,
   ytViews: 90000,
   tkViews: 114000,
   hours: 500,
@@ -180,7 +180,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return num + suffix;
     }
     if (num >= 1000) {
-      return Math.floor(num / 1000) + "K";
+      const val = num / 1000;
+      return (val % 1 === 0 ? val : val.toFixed(1)) + "K";
     }
     return num.toString();
   }
