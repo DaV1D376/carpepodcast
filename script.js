@@ -3,11 +3,18 @@
 // Initial default data if localstorage is empty
 const defaultGuests = [
   {
-    name: "ENRICO ROSSIGNOLI",
-    bio: "Enrico Rossignoli è il CEO e co-fondatore di Live Bomber una piattaforma e un'app che ha rivoluzionato il modo in cui vengono raccontati e seguiti gli sport dilettantistici e amatoriali in Italia (in particolar modo il calcio, il calcio a 8 e il padel).",
+    name: "FRANCESCO POCHESCI",
+    bio: "Francesco Pochesci è un giocatore professionista di calcio a 5. Categoria Serie A2 con il Frosinone. Nella sua carriera calcistica ha giocato in tantissime squadre e realtà. Come ad esempio lo Sporting Hornets. Capitano della squadra e figura fondamentale. Vittoria della Coppa Italia e tantissimi premi individuali. La sua qualità in mezzo al campo è la sua tecnica nello stretto. Persona d’oro anche fuori dal campo, con umiltà e trasparenza. Abbiamo approfondito il tutto all’interno della puntata. Goal, vittorie, sconfitte, trofei, momenti positivi e momenti negativi. La sua classe dentro e fuori dal rettangolo di gioco.",
     imageUrl:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_125243_6b4ac200-3e29-4fce-b046-4d2798982426.jpeg&w=1280&q=85",
-    videoUrl: "https://youtu.be/qdaCi0gNcKs?si=Dy3GYxtCmMudIhx1",
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953038/ChatGPT_Image_8_giu_2026_23_06_15_uug77i.png",
+    videoUrl: "https://youtu.be/Yn6m9ZM8EUw?si=vPQ2kXxsdwGWuMRm",
+  },
+  {
+    name: "MAURO SIGISMONDI",
+    bio: "Mauro Sigismondi è una delle tantissime colonne della squadra Sangiovannella. Un uomo con dei valori e dei principi. La sua dedizione, la sua determinazione e la tenacia dentro e fuori lo spogliatoio. Non molla mai, neanche un centimetro, per il gruppo e per la squadra in generale. Lui risponde sempre presente, soprattutto nei momenti più difficili e complicati della stagione. Tutti gli approfondimenti del mondo Sangiovannella e non solo, li trovate nella puntata integrale sul canale.",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260328_122055_c62672a8-6cf7-442d-9961-d5a6a957a8b4.png&w=1280&q=85",
+    videoUrl: "https://youtu.be/ocxfEmZSWqE?si=T-MxaOdZL0sjaM2P",
   },
   {
     name: "STEFANO CLORI",
@@ -15,6 +22,14 @@ const defaultGuests = [
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1780605348/ChatGPT_Image_4_giu_2026_22_34_43_kflttl.png",
     videoUrl: "https://youtu.be/Yjj4CRpR3I8?si=OXuwPVJcK-La8Faj",
+  },
+
+  {
+    name: "EMILIO CARNEVALE",
+    bio: "Emilio Carnevale é un mister di calcio a 11, che allena attualmente il Real Torre Maura in terza categoria. Ma praticamente ha ottenuto la matematica certezza del primo posto in classifica e la vittoria del campionato. Il mister Emilio Carnevale detto anche il COMANDATE. Soprannome dato proprio dal presidente della squadra… Danilo De Felice. Abbiamo parlato anche dei suoi anni precedenti con salvezze, sconfitte, vittorie e momenti difficili. Prima di essere un mister di calcio, lui é una persona meravigliosa sotto tutti i punti di vista. Il saper gestire lo spogliatoio, diverse situazioni di gioco, gli allenamenti, le formazioni e le partite. Tutto all’interno di questa super puntata integrale.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780255328/6edcd018-d36c-4666-aeb7-2fcc1057cebe_1_fz36ts.png",
+    videoUrl: "https://youtu.be/hI9cQrg5WDY?si=BSPNJPKkO2rpFjqA",
   },
   {
     name: "LORENZO RUBINETTI",
@@ -24,11 +39,11 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
   },
   {
-    name: "FRANCESCO POCHESCI",
-    bio: "Francesco Pochesci è un giocatore professionista di calcio a 5. Categoria Serie A2 con il Frosinone. Nella sua carriera calcistica ha giocato in tantissime squadre e realtà. Come ad esempio lo Sporting Hornets. Capitano della squadra e figura fondamentale. Vittoria della Coppa Italia e tantissimi premi individuali. La sua qualità in mezzo al campo è la sua tecnica nello stretto. Persona d’oro anche fuori dal campo, con umiltà e trasparenza. Abbiamo approfondito il tutto all’interno della puntata. Goal, vittorie, sconfitte, trofei, momenti positivi e momenti negativi. La sua classe dentro e fuori dal rettangolo di gioco.",
+    name: "ENRICO ROSSIGNOLI",
+    bio: "Enrico Rossignoli è il CEO e co-fondatore di Live Bomber una piattaforma e un'app che ha rivoluzionato il modo in cui vengono raccontati e seguiti gli sport dilettantistici e amatoriali in Italia (in particolar modo il calcio, il calcio a 8 e il padel).",
     imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953038/ChatGPT_Image_8_giu_2026_23_06_15_uug77i.png",
-    videoUrl: "https://youtu.be/Yn6m9ZM8EUw?si=vPQ2kXxsdwGWuMRm",
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_125243_6b4ac200-3e29-4fce-b046-4d2798982426.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/qdaCi0gNcKs?si=Dy3GYxtCmMudIhx1",
   },
   {
     name: "FABRIZIO PASQUALETTI",
@@ -38,11 +53,11 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/ljrVVvPIUtY?si=IHb2BTacRZEXAFZ9",
   },
   {
-    name: "FABIO RASO",
-    bio: "Fabio Raso è un ospite che è perfetto sul mondo telecronache sportive e non solo. Responsabile di Flash Sport, radio e gestione dei circoli sportivi, con tornei e partite. Tantissime attività sul panorama calcistico e amatoriale a 360°. Cura sempre tutti i dettagli con squadre e giocatori. Un puntata piena di emozioni come sempre... Un tuttofare nel vero senso della parola dentro e fuori dal campo",
+    name: "DANIEL TROMBETTI",
+    bio: "Daniel Trombetti è un super organizzatore di tornei di calcio su Roma. Soprattutto il torneo Bestnfra, presso il circolo Lodigiani a Borghesiana. Torneo in particolare di calciotto, con regolamento, premi e massima professionalità sull'organizzazione in generale. Un organizzatore e una persona determinata, precisa e soprattutto con tanta passione. Nella puntata abbiamo approfondito a 360° il torneo, con aneddoti e la sua storia dall'inizio fino ad oggi. Insomma panoramica completa del dietro le quinte di questa organizzazione e di questo torneo.",
     imageUrl:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260423_064322_0e89845d-3112-4064-b28e-8459db1a87bb.png&w=1280&q=85",
-    videoUrl: "https://youtu.be/SdzRAaDilZ0?si=PBkOPynagcjOLfvS",
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953063/ChatGPT_Image_8_giu_2026_23_10_53_jy7cuv.png",
+    videoUrl: "https://youtu.be/4T-756D2O50?si=Nh9e9w_FehnqSgLO",
   },
   {
     name: "MATTEO LAROSA",
@@ -59,39 +74,11 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/xEsmjsfyZ_Q?si=xnpXYZBkhec3N5ZZ",
   },
   {
-    name: "EMILIO CARNEVALE",
-    bio: "Emilio Carnevale é un mister di calcio a 11, che allena attualmente il Real Torre Maura in terza categoria. Ma praticamente ha ottenuto la matematica certezza del primo posto in classifica e la vittoria del campionato. Il mister Emilio Carnevale detto anche il COMANDATE. Soprannome dato proprio dal presidente della squadra… Danilo De Felice. Abbiamo parlato anche dei suoi anni precedenti con salvezze, sconfitte, vittorie e momenti difficili. Prima di essere un mister di calcio, lui é una persona meravigliosa sotto tutti i punti di vista. Il saper gestire lo spogliatoio, diverse situazioni di gioco, gli allenamenti, le formazioni e le partite. Tutto all’interno di questa super puntata integrale.",
-    imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1780255328/6edcd018-d36c-4666-aeb7-2fcc1057cebe_1_fz36ts.png",
-    videoUrl: "https://youtu.be/hI9cQrg5WDY?si=BSPNJPKkO2rpFjqA",
-  },
-  {
-    name: "SAMUEL E VINCENT FABRIZIO",
-    bio: "Samuel Fabrizio e Vincent Fabrizio sono due fratelli meravigliosi e soprattutto fortissimi a giocare a calcio. Abbiamo approfondito all'interno della puntata la loro storia e le loro rispettive carriere calcistiche. Le loro squadre e le loro esperienze a 360°. Tantissime qualità in mezzo al campo, tecnica e velocità. Due ragazzi che non hanno bisogno di altre presentazioni... Puntata ricca di emozioni e tantissimi aneddoti molto simpatici. Oltre alle doti dentro un campo di calcio, sono due ragazzi super anche fuori dal campo. In sintesi sono due ragazzi clamorosi. Puntata da non perdere...",
-    imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1780256120/ChatGPT_Image_31_mag_2026_21_35_11_bh4zk2.png",
-    videoUrl: "https://youtu.be/S0hA0QP8_Ww?si=tRh7Sj4cowrRQnjc",
-  },
-  {
-    name: "DANIEL TROMBETTI",
-    bio: "Daniel Trombetti è un super organizzatore di tornei di calcio su Roma. Soprattutto il torneo Bestnfra, presso il circolo Lodigiani a Borghesiana. Torneo in particolare di calciotto, con regolamento, premi e massima professionalità sull'organizzazione in generale. Un organizzatore e una persona determinata, precisa e soprattutto con tanta passione. Nella puntata abbiamo approfondito a 360° il torneo, con aneddoti e la sua storia dall'inizio fino ad oggi. Insomma panoramica completa del dietro le quinte di questa organizzazione e di questo torneo.",
-    imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953063/ChatGPT_Image_8_giu_2026_23_10_53_jy7cuv.png",
-    videoUrl: "https://youtu.be/4T-756D2O50?si=Nh9e9w_FehnqSgLO",
-  },
-  {
     name: "LORENZO FALCETTA",
     bio: "Lorenzo Falcetta è un giocatore di calcio che fa parte della Sangiovannella momentaneamente, in seconda categoria. Tantissime squadre e una storia tutta da scoprire. Dalle giovanili fino ad oggi, tra premi, coppe, goal, vittorie e sconfitte. Una puntata completa sul mondo del calcio e non solo... Emozioni e colpi di scena. Un ragazzo fuori dal campo incredibile... Buono, disponibile e gentile. Ladispoli, Fregene, Urbetevere, Focene, Sangiovannella... Insomma tanta carne al fuoco. Puntata da non perdere assolutamente.",
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1780256736/ChatGPT_Image_31_mag_2026_21_45_26_jka3r2.png",
     videoUrl: "https://youtu.be/0cYkpM9Cim0?si=5jpaJ7-pAl1dUJZK",
-  },
-  {
-    name: "LUCA OTTAVIANI",
-    bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
-    imageUrl:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260316_192616_0edfd75d-ccb6-4a19-ad35-ef0b60421c91.jpeg&w=1280&q=85",
-    videoUrl: "https://youtu.be/73--rySBL9E?si=zOPsBze3fh-UGvhf",
   },
   {
     name: "EDOARDO TERENZI",
@@ -108,6 +95,20 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/W5PhYMv94Zc?si=stHlOJ60CuZZZlvo",
   },
   {
+    name: "SAMUEL E VINCENT FABRIZIO",
+    bio: "Samuel Fabrizio e Vincent Fabrizio sono due fratelli meravigliosi e soprattutto fortissimi a giocare a calcio. Abbiamo approfondito all'interno della puntata la loro storia e le loro rispettive carriere calcistiche. Le loro squadre e le loro esperienze a 360°. Tantissime qualità in mezzo al campo, tecnica e velocità. Due ragazzi che non hanno bisogno di altre presentazioni... Puntata ricca di emozioni e tantissimi aneddoti molto simpatici. Oltre alle doti dentro un campo di calcio, sono due ragazzi super anche fuori dal campo. In sintesi sono due ragazzi clamorosi. Puntata da non perdere...",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780256120/ChatGPT_Image_31_mag_2026_21_35_11_bh4zk2.png",
+    videoUrl: "https://youtu.be/S0hA0QP8_Ww?si=tRh7Sj4cowrRQnjc",
+  },
+  {
+    name: "FABIO RASO",
+    bio: "Fabio Raso è un ospite che è perfetto sul mondo telecronache sportive e non solo. Responsabile di Flash Sport, radio e gestione dei circoli sportivi, con tornei e partite. Tantissime attività sul panorama calcistico e amatoriale a 360°. Cura sempre tutti i dettagli con squadre e giocatori. Un puntata piena di emozioni come sempre... Un tuttofare nel vero senso della parola dentro e fuori dal campo",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260423_064322_0e89845d-3112-4064-b28e-8459db1a87bb.png&w=1280&q=85",
+    videoUrl: "https://youtu.be/SdzRAaDilZ0?si=PBkOPynagcjOLfvS",
+  },
+  {
     name: "ALESSANDRO BATTISTONI",
     bio: "Alessandro Battistoni è un grandissimo giocatore di Calcio a 5. Presente in tantissimi tornei su Roma nella Divisione Romana Tornei soprattutto con il Sjca Dragons. Da evidenziare nella sua carriera calcistica gli anni d'oro alle Palme. Oltre il calcio all'interno della puntata abbiamo approfondito la sua pazzia fatta qualche anno fa... Il lancio fatto dall'aereoplano con il paracadute. Insomma puntata come al solito ricca di emozioni e di racconti generali sul calcio e non solo...",
     imageUrl:
@@ -115,18 +116,18 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/HcWEAZTpQ6M?si=Y10_294hmY3P2Uwc",
   },
   {
-    name: "MAURO SIGISMONDI",
-    bio: "Mauro Sigismondi è una delle tantissime colonne della squadra Sangiovannella. Un uomo con dei valori e dei principi. La sua dedizione, la sua determinazione e la tenacia dentro e fuori lo spogliatoio. Non molla mai, neanche un centimetro, per il gruppo e per la squadra in generale. Lui risponde sempre presente, soprattutto nei momenti più difficili e complicati della stagione. Tutti gli approfondimenti del mondo Sangiovannella e non solo, li trovate nella puntata integrale sul canale.",
-    imageUrl:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260328_122055_c62672a8-6cf7-442d-9961-d5a6a957a8b4.png&w=1280&q=85",
-    videoUrl: "https://youtu.be/ocxfEmZSWqE?si=T-MxaOdZL0sjaM2P",
-  },
-  {
     name: "MATTIA PARADISI",
     bio: "Mattia Paradisi è il Presidente dell'Atletico Alberone, una delle formazioni più attive e conosciute all'interno della Lega Calcio a 8 (Lega C8) di Roma, che ha la sua casa sportiva presso il centro sportivo Atletico 2000",
     imageUrl:
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260311_101915_738f5c8d-123f-42e1-86a1-a9b374bec6c8.jpeg&w=1280&q=85",
     videoUrl: "https://youtu.be/D3yLbMrK5NU?si=xBq3ylbBih8rfoLh",
+  },
+  {
+    name: "LUCA OTTAVIANI",
+    bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260316_192616_0edfd75d-ccb6-4a19-ad35-ef0b60421c91.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/73--rySBL9E?si=zOPsBze3fh-UGvhf",
   },
 ];
 
