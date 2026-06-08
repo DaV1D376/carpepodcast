@@ -131,9 +131,9 @@ const defaultGuests = [
 ];
 
 const defaultStats = {
-  ytSubs: 4100,
-  ytViews: 85000,
-  tkViews: 70000,
+  ytSubs: 4.1,
+  ytViews: 90000,
+  tkViews: 114000,
   hours: 500,
 };
 
