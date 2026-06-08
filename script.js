@@ -115,19 +115,20 @@ const defaultGuests = [
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260331_212433_d91d2bcc-f27d-4878-ba4c-a353759072a3.png&w=1280&q=85",
     videoUrl: "https://youtu.be/HcWEAZTpQ6M?si=Y10_294hmY3P2Uwc",
   },
-  {
-    name: "MATTIA PARADISI",
-    bio: "Mattia Paradisi è il Presidente dell'Atletico Alberone, una delle formazioni più attive e conosciute all'interno della Lega Calcio a 8 (Lega C8) di Roma, che ha la sua casa sportiva presso il centro sportivo Atletico 2000",
-    imageUrl:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260311_101915_738f5c8d-123f-42e1-86a1-a9b374bec6c8.jpeg&w=1280&q=85",
-    videoUrl: "https://youtu.be/D3yLbMrK5NU?si=xBq3ylbBih8rfoLh",
-  },
+
   {
     name: "LUCA OTTAVIANI",
     bio: "Luca Ottaviani, portiere del Fogaccia (che milita in seconda categoria). Una persona meravigliosa con tante considerazioni sul mondo Fogaccia e tantissimi racconti anche sulla sua carriera in generale. Tra passato e presente, una storia ricca di emozioni. Puntata che riguarda il ruolo del portiere a 360°.",
     imageUrl:
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260316_192616_0edfd75d-ccb6-4a19-ad35-ef0b60421c91.jpeg&w=1280&q=85",
     videoUrl: "https://youtu.be/73--rySBL9E?si=zOPsBze3fh-UGvhf",
+  },
+  {
+    name: "MATTIA PARADISI",
+    bio: "Mattia Paradisi è il Presidente dell'Atletico Alberone, una delle formazioni più attive e conosciute all'interno della Lega Calcio a 8 (Lega C8) di Roma, che ha la sua casa sportiva presso il centro sportivo Atletico 2000",
+    imageUrl:
+      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260311_101915_738f5c8d-123f-42e1-86a1-a9b374bec6c8.jpeg&w=1280&q=85",
+    videoUrl: "https://youtu.be/D3yLbMrK5NU?si=xBq3ylbBih8rfoLh",
   },
 ];
 
