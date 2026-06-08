@@ -24,6 +24,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
   },
   {
+    name: "FRANCESCO POCHESCI",
+    bio: "Francesco Pochesci è un giocatore professionista di calcio a 5. Categoria Serie A2 con il Frosinone. Nella sua carriera calcistica ha giocato in tantissime squadre e realtà. Come ad esempio lo Sporting Hornets. Capitano della squadra e figura fondamentale. Vittoria della Coppa Italia e tantissimi premi individuali. La sua qualità in mezzo al campo è la sua tecnica nello stretto. Persona d’oro anche fuori dal campo, con umiltà e trasparenza. Abbiamo approfondito il tutto all’interno della puntata. Goal, vittorie, sconfitte, trofei, momenti positivi e momenti negativi. La sua classe dentro e fuori dal rettangolo di gioco.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953038/ChatGPT_Image_8_giu_2026_23_06_15_uug77i.png",
+    videoUrl: "https://youtu.be/Yn6m9ZM8EUw?si=vPQ2kXxsdwGWuMRm",
+  },
+  {
     name: "FABRIZIO PASQUALETTI",
     bio: "Fabrizio Pasqualetti è il direttore della squadra Core De Roma (squadra della Lega Calcio a 8). Una figura all'interno della società indispensabile e fondamentale. Un simbolo di questa squadra e di questa società. Se parliamo di Core De Roma, parliamo ovviamente di Fabrizio Pasqualetti, che ci ha raccontato nei minimi dettagli l'organizzazione, il dietro le quinte e gli obiettivi societari. Una persona d'oro sotto tutti i punti di vista.",
     imageUrl:
@@ -69,7 +76,7 @@ const defaultGuests = [
     name: "DANIEL TROMBETTI",
     bio: "Daniel Trombetti è un super organizzatore di tornei di calcio su Roma. Soprattutto il torneo Bestnfra, presso il circolo Lodigiani a Borghesiana. Torneo in particolare di calciotto, con regolamento, premi e massima professionalità sull'organizzazione in generale. Un organizzatore e una persona determinata, precisa e soprattutto con tanta passione. Nella puntata abbiamo approfondito a 360° il torneo, con aneddoti e la sua storia dall'inizio fino ad oggi. Insomma panoramica completa del dietro le quinte di questa organizzazione e di questo torneo.",
     imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1780257315/ChatGPT_Image_31_mag_2026_21_55_06_o9pue5.png",
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953063/ChatGPT_Image_8_giu_2026_23_10_53_jy7cuv.png",
     videoUrl: "https://youtu.be/4T-756D2O50?si=Nh9e9w_FehnqSgLO",
   },
   {
@@ -125,8 +132,8 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4100,
-  ytViews: 80000,
-  tkViews: 65000,
+  ytViews: 85000,
+  tkViews: 70000,
   hours: 500,
 };
 
