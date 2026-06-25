@@ -3,6 +3,20 @@
 // Initial default data if localstorage is empty
 const defaultGuests = [
   {
+    name: "SIMONE BELLARDINI",
+    bio: "Simone Bellardini é un giocatore di calcio a 11, ruolo centrocampista / trequartista. La sua qualità in mezzo al campo, con il baricentro basso e il movimento nello stretto in spazi inesistenti.La sua carriera a 360’. Vigor Perconti, Bari, Morena, Casal Barriera e ovviamente l’ultima parentesi alla Magnitudo. Un ragazzo super sotto tutti i punti di vista. Abbiamo approfondito la sua storia e la sua vita. Diversi goal e assist per lui quest’anno, con buone prestazioni per tutta la stagione. Un giocatore formidabile e una persona d’oro, dentro e fuori dal campo di gioco. Una puntata molto interessante dall’inizio alla fine. Passato, presente e un occhio anche verso il futuro. Dai primi anni di gioco fino ad oggi, tutto all’interno della puntata.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1782419622/ChatGPT_Image_25_giu_2026_22_32_34_ez0ooi.png",
+    videoUrl: "https://youtu.be/BzaSc5vTWic?is=ixmXRqBLhN80tDcx",
+  },
+  {
+    name: "ANDREA LIGUORI",
+    bio: "Andrea Liguori é il presidente della Lazio Calcio a 8. Tantissime squadre e tornei svolti. Un centro a Ottavia ed eventi incredibili. Una persona squisita sotto tutto i punti di vista, dentro e fuori dal campo. Una puntata dedicata al mondo bianco celeste a 360’. La parentesi della Lega Calcio a 8 e i tornei anche internazionali in Brasile e in Russia. Tantissima carne al fuoco, all’interno di questa oretta in studio. Coppe vinte, premi, sconfitte, rimpianti e tantissimo altro ancora. Andrea Liguori e la Lazio in primissimo piano. La società Lazio C8 approfondita dal presidente.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1782419235/ChatGPT_Image_25_giu_2026_22_22_40_fmjf9g.png",
+    videoUrl: "https://youtu.be/ke8zlZAtvik?is=UB-Xv6GIv7H6_BEY",
+  },
+  {
     name: "FRANCESCO POCHESCI",
     bio: "Francesco Pochesci è un giocatore professionista di calcio a 5. Categoria Serie A2 con il Frosinone. Nella sua carriera calcistica ha giocato in tantissime squadre e realtà. Come ad esempio lo Sporting Hornets. Capitano della squadra e figura fondamentale. Vittoria della Coppa Italia e tantissimi premi individuali. La sua qualità in mezzo al campo è la sua tecnica nello stretto. Persona d’oro anche fuori dal campo, con umiltà e trasparenza. Abbiamo approfondito il tutto all’interno della puntata. Goal, vittorie, sconfitte, trofei, momenti positivi e momenti negativi. La sua classe dentro e fuori dal rettangolo di gioco.",
     imageUrl:
@@ -134,9 +148,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4100,
-  ytViews: 90000,
+  ytViews: 97000,
   tkViews: 114000,
-  hours: 500,
+  hours: 600,
 };
 
 // ALWAYS use the default guests from this file as the base.
