@@ -3,11 +3,11 @@
 // Initial default data if localstorage is empty
 const defaultGuests = [
   {
-    name: "SIMONE BELLARDINI",
-    bio: "Simone Bellardini é un giocatore di calcio a 11, ruolo centrocampista / trequartista. La sua qualità in mezzo al campo, con il baricentro basso e il movimento nello stretto in spazi inesistenti.La sua carriera a 360’. Vigor Perconti, Bari, Morena, Casal Barriera e ovviamente l’ultima parentesi alla Magnitudo. Un ragazzo super sotto tutti i punti di vista. Abbiamo approfondito la sua storia e la sua vita. Diversi goal e assist per lui quest’anno, con buone prestazioni per tutta la stagione. Un giocatore formidabile e una persona d’oro, dentro e fuori dal campo di gioco. Una puntata molto interessante dall’inizio alla fine. Passato, presente e un occhio anche verso il futuro. Dai primi anni di gioco fino ad oggi, tutto all’interno della puntata.",
+    name: "FRANCESCO POCHESCI",
+    bio: "Francesco Pochesci è un giocatore professionista di calcio a 5. Categoria Serie A2 con il Frosinone. Nella sua carriera calcistica ha giocato in tantissime squadre e realtà. Come ad esempio lo Sporting Hornets. Capitano della squadra e figura fondamentale. Vittoria della Coppa Italia e tantissimi premi individuali. La sua qualità in mezzo al campo è la sua tecnica nello stretto. Persona d’oro anche fuori dal campo, con umiltà e trasparenza. Abbiamo approfondito il tutto all’interno della puntata. Goal, vittorie, sconfitte, trofei, momenti positivi e momenti negativi. La sua classe dentro e fuori dal rettangolo di gioco.",
     imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1782419622/ChatGPT_Image_25_giu_2026_22_32_34_ez0ooi.png",
-    videoUrl: "https://youtu.be/BzaSc5vTWic?is=ixmXRqBLhN80tDcx",
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953038/ChatGPT_Image_8_giu_2026_23_06_15_uug77i.png",
+    videoUrl: "https://youtu.be/Yn6m9ZM8EUw?si=vPQ2kXxsdwGWuMRm",
   },
   {
     name: "ANDREA LIGUORI",
@@ -15,13 +15,6 @@ const defaultGuests = [
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1782419235/ChatGPT_Image_25_giu_2026_22_22_40_fmjf9g.png",
     videoUrl: "https://youtu.be/ke8zlZAtvik?is=UB-Xv6GIv7H6_BEY",
-  },
-  {
-    name: "FRANCESCO POCHESCI",
-    bio: "Francesco Pochesci è un giocatore professionista di calcio a 5. Categoria Serie A2 con il Frosinone. Nella sua carriera calcistica ha giocato in tantissime squadre e realtà. Come ad esempio lo Sporting Hornets. Capitano della squadra e figura fondamentale. Vittoria della Coppa Italia e tantissimi premi individuali. La sua qualità in mezzo al campo è la sua tecnica nello stretto. Persona d’oro anche fuori dal campo, con umiltà e trasparenza. Abbiamo approfondito il tutto all’interno della puntata. Goal, vittorie, sconfitte, trofei, momenti positivi e momenti negativi. La sua classe dentro e fuori dal rettangolo di gioco.",
-    imageUrl:
-      "https://res.cloudinary.com/day5drjzw/image/upload/v1780953038/ChatGPT_Image_8_giu_2026_23_06_15_uug77i.png",
-    videoUrl: "https://youtu.be/Yn6m9ZM8EUw?si=vPQ2kXxsdwGWuMRm",
   },
   {
     name: "MAURO SIGISMONDI",
@@ -51,6 +44,13 @@ const defaultGuests = [
     imageUrl:
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260310_130115_2587c09c-c26e-4e5e-9009-80b4deeff7e1.jpeg&w=1280&q=85",
     videoUrl: "https://youtu.be/nB4Ro_AvgQ0?si=5eVMpBimTLtmcpVM",
+  },
+  {
+    name: "SIMONE BELLARDINI",
+    bio: "Simone Bellardini é un giocatore di calcio a 11, ruolo centrocampista / trequartista. La sua qualità in mezzo al campo, con il baricentro basso e il movimento nello stretto in spazi inesistenti.La sua carriera a 360’. Vigor Perconti, Bari, Morena, Casal Barriera e ovviamente l’ultima parentesi alla Magnitudo. Un ragazzo super sotto tutti i punti di vista. Abbiamo approfondito la sua storia e la sua vita. Diversi goal e assist per lui quest’anno, con buone prestazioni per tutta la stagione. Un giocatore formidabile e una persona d’oro, dentro e fuori dal campo di gioco. Una puntata molto interessante dall’inizio alla fine. Passato, presente e un occhio anche verso il futuro. Dai primi anni di gioco fino ad oggi, tutto all’interno della puntata.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1782419622/ChatGPT_Image_25_giu_2026_22_32_34_ez0ooi.png",
+    videoUrl: "https://youtu.be/BzaSc5vTWic?is=ixmXRqBLhN80tDcx",
   },
   {
     name: "ENRICO ROSSIGNOLI",
