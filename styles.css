@@ -899,17 +899,27 @@ textarea:focus {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
-        margin-bottom: 0; /* Rimozione margine interno per altezza perfetta */
+        margin-bottom: 40px;
         position: relative;
     }
     .watermark {
-        left: -5%;
+        left: 0;
         font-size: 30vw;
-        top: 50%;
+        top: 0;
         line-height: 0.8;
-        transform: translateY(-50%); /* Perfetto centramento matematico */
+        transform: translateY(-25%); /* Perfect centering behind the title */
     }
-    .title {
+    
+    /* Correzioni specifiche SOLO per lo sponsor su mobile */
+    #sponsor .title-row {
+        margin-bottom: 0;
+    }
+    #sponsor .watermark {
+        left: -5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #sponsor .title {
         white-space: nowrap;
         font-size: clamp(24px, 8vw, 80px);
     }
