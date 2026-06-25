@@ -899,15 +899,19 @@ textarea:focus {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
-        margin-bottom: 40px;
+        margin-bottom: 0; /* Rimozione margine interno per altezza perfetta */
         position: relative;
     }
     .watermark {
-        left: 0;
+        left: -5%;
         font-size: 30vw;
-        top: 0;
+        top: 50%;
         line-height: 0.8;
-        transform: translateY(-25%); /* Perfect centering behind the title */
+        transform: translateY(-50%); /* Perfetto centramento matematico */
+    }
+    .title {
+        white-space: nowrap;
+        font-size: clamp(24px, 8vw, 80px);
     }
     .guests-grid {
         gap: 20px;

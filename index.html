@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=13">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar">
@@ -24,7 +26,8 @@
     <header class="hero">
         <picture>
             <source media="(max-width: 768px)" srcset="IMAGES/hero%20mobile.jpeg">
-            <img src="IMAGES/hf_20260310_121233_d1d69280-e91d-43b2-9158-c05c67af59c5.jpeg" alt="Davide Carpentieri Hero" class="hero-img">
+            <img src="IMAGES/hf_20260310_121233_d1d69280-e91d-43b2-9158-c05c67af59c5.jpeg" alt="Davide Carpentieri Hero"
+                class="hero-img">
         </picture>
         <div class="hero-overlay">
             <span class="signature">Davide Carpentieri</span>
@@ -61,6 +64,41 @@
                 <div class="stat-number" data-target="150" data-suffix="h">0</div>
                 <div class="stat-label">ORE DI VISUALIZZAZIONE</div>
                 <div class="stat-bar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section -->
+    <section class="guests-section" id="sponsor" style="padding-bottom: 0;">
+        <div class="section-header">
+            <h2 class="watermark">SPONSOR</h2>
+            <div class="title-row">
+                <h2 class="title">I NOSTRI SPONSOR</h2>
+                <div class="carousel-controls" style="display: none;">
+                    <button class="slider-btn">&#10094;</button>
+                    <button class="slider-btn">&#10095;</button>
+                    <a href="#" class="view-channel" style="margin-left: 20px;">VAI AL CANALE</a>
+                </div>
+            </div>
+        </div>
+        <div class="guests-slider-container">
+            <div class="guests-grid">
+                <!-- Sponsor Card -->
+                <div class="guest-card">
+                    <div class="guest-image-wrapper"
+                        style="background: var(--col-white); padding: 0; aspect-ratio: auto; height: auto;">
+                        <img src="IMAGES/logo%20larosa.jpeg" alt="Larosa Feste e Rinfreschi"
+                            style="width: 100%; height: auto; display: block; object-fit: contain;" loading="lazy">
+                    </div>
+                    <h3 class="guest-name">LAROSA FESTE E RINFRESCHI</h3>
+                    <p class="guest-bio" style="-webkit-line-clamp: unset; line-clamp: unset;">Ci occupiamo della Fornitura, dell’ Organizzazione, dell’Allestimento e del Servizio per tutti i tipi di eventi… Feste di Compleanno, Coffe Break, Comunioni, Cresime e tanto altro!<br><br>Disponibili alla consegna su tutta Roma e dintorni!</p>
+                    <div class="guest-actions">
+                        <a href="https://www.instagram.com/larosa_feste_e_rinfreschi?igsh=MWxqODdnajN5a3hmaQ%3D%3D&utm_source=qr"
+                            class="btn btn-outline guest-btn" target="_blank">INSTAGRAM</a>
+                        <a href="https://www.facebook.com/share/1G89xW88dT/?mibextid=wwXIfr"
+                            class="btn btn-black guest-btn" target="_blank">FACEBOOK</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -112,7 +150,9 @@
                     <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Raccontaci brevemente chi sei o cosa fa la tua azienda..." rows="5" required></textarea>
+                    <textarea id="message" name="message"
+                        placeholder="Raccontaci brevemente chi sei o cosa fa la tua azienda..." rows="5"
+                        required></textarea>
                 </div>
                 <button type="submit" class="btn btn-gradient">INVIA RICHIESTA</button>
             </form>
@@ -152,4 +192,5 @@
 
     <script src="script.js?v=13"></script>
 </body>
+
 </html>
