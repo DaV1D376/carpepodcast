@@ -34,7 +34,7 @@
     --col-text-gray: #7a7a7a;
     --col-watermark: #e6e6e6;
     
-    --gradient-warm: linear-gradient(135deg, #d38312 0%, #a83279 100%);
+    --gradient-warm: linear-gradient(135deg, #ff3300 0%, #061409 95%);
 }
 
 * {
@@ -144,7 +144,25 @@ body {
 }
 .btn-gradient:hover {
     opacity: 0.9;
-    box-shadow: 0 5px 15px rgba(211, 131, 18, 0.4);
+    box-shadow: 0 5px 15px rgba(255, 51, 0, 0.4);
+}
+
+.bg-gradient {
+    background: var(--gradient-warm) !important;
+    color: white !important;
+    border: none !important;
+}
+.bg-gradient:hover {
+    opacity: 0.9;
+    box-shadow: 0 5px 15px rgba(255, 51, 0, 0.4);
+}
+
+.text-gradient {
+    background: var(--gradient-warm);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 /* HERO SECTION */
@@ -158,7 +176,10 @@ body {
 .hero-img {
     display: block;
     width: 100%;
-    height: auto;
+    max-height: 85vh;
+    object-fit: cover;
+    object-position: center 15%;
+    border-radius: 12px;
 }
 
 .hero-overlay {
@@ -236,7 +257,10 @@ body {
 .stat-icon {
     font-size: 28px;
     margin-bottom: 10px;
-    /* Removed text-fill transparent and background-clip here because iOS Safari explicitly hides native emojis if color is transparent or clipped */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stat-number {
@@ -796,6 +820,55 @@ textarea:focus {
     border-color: var(--col-black);
 }
 
+/* SPONSOR DESKTOP OVERRIDES */
+@media (min-width: 769px) {
+    #sponsor .guests-grid {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 50px;
+        justify-content: flex-start;
+        display: flex;
+    }
+    #sponsor-card {
+        flex-direction: row;
+        width: 100%;
+        max-width: 1000px;
+        align-items: center;
+        gap: 60px;
+        padding: 20px;
+    }
+    #sponsor-card .guest-image-wrapper {
+        flex: 1;
+        margin-bottom: 0;
+        max-width: 350px;
+    }
+    #sponsor-card .guest-content {
+        flex: 1.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #sponsor-card .guest-bio {
+        padding-right: 0;
+        font-size: 18px;
+    }
+    #sponsor-card .guest-actions {
+        display: flex;
+        gap: 20px;
+    }
+    #sponsor-card .guest-btn {
+        width: auto;
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
+
+.guest-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
     .guest-bio {
@@ -922,6 +995,23 @@ textarea:focus {
     #sponsor .title {
         white-space: nowrap;
         font-size: clamp(24px, 8vw, 80px);
+    }
+    #sponsor .section-header {
+        margin-bottom: 60px;
+    }
+    #sponsor-card .guest-image-wrapper {
+        margin-bottom: 15px;
+    }
+    #sponsor-card .guest-name {
+        white-space: nowrap;
+        font-size: clamp(15px, 5vw, 22px);
+    }
+    #sponsor .guests-grid {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        width: 100%;
+        display: flex;
     }
     .guests-grid {
         gap: 20px;
