@@ -30,7 +30,13 @@ const defaultGuests = [
       "https://res.cloudinary.com/day5drjzw/image/upload/v1780605348/ChatGPT_Image_4_giu_2026_22_34_43_kflttl.png",
     videoUrl: "https://youtu.be/Yjj4CRpR3I8?si=OXuwPVJcK-La8Faj",
   },
-
+  {
+    name: "MIRKO FORCINA",
+    bio: "Mirko Forcina é un grandissimo attaccante e un grandissimo uomo. La sua carriera non ha bisogno di presentazioni, tra eccellenza e tra promozione. In ogni squadra che ha giocato… ha sempre lasciato il segno! Torrenova, Fiumicino, Albalonga, Real San Basilio e tanto altro… Più di 350 goal in carriera! Una persona d’oro davvero! Un ragazzo con dei valori, umile e determinato. La sua esperienza, la sua forza di non mollare mai e soprattutto il sacrificio. Lui non si risparmia mai dentro un campo di calcio. All’interno della puntata abbiamo parlato anche della sua vita extra campo di calcio… la sua famiglia e soprattutto suo nonno. Vittorie, sconfitte, premi individuali, momenti positivi e momenti negativi. Tutto all’interno della puntata! Anche una piccola parentesi sulla Lega Calcio a 8… Ma soprattutto il Calcio a 11 in primo piano. Una puntata ricca di tantissime emozioni. Il bomber Mirko Forcina!",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1785510703/Immagine_4_generata_po0sot.png",
+    videoUrl: "https://youtu.be/6YcI_t4YpvE?si=iHbeIEZOyO_y9WJx",
+  },
   {
     name: "EMILIO CARNEVALE",
     bio: "Emilio Carnevale é un mister di calcio a 11, che allena attualmente il Real Torre Maura in terza categoria. Ma praticamente ha ottenuto la matematica certezza del primo posto in classifica e la vittoria del campionato. Il mister Emilio Carnevale detto anche il COMANDATE. Soprannome dato proprio dal presidente della squadra… Danilo De Felice. Abbiamo parlato anche dei suoi anni precedenti con salvezze, sconfitte, vittorie e momenti difficili. Prima di essere un mister di calcio, lui é una persona meravigliosa sotto tutti i punti di vista. Il saper gestire lo spogliatoio, diverse situazioni di gioco, gli allenamenti, le formazioni e le partite. Tutto all’interno di questa super puntata integrale.",
@@ -51,6 +57,20 @@ const defaultGuests = [
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1782419622/ChatGPT_Image_25_giu_2026_22_32_34_ez0ooi.png",
     videoUrl: "https://youtu.be/BzaSc5vTWic?is=ixmXRqBLhN80tDcx",
+  },
+  {
+    name: "TRIDENTE PODCAST",
+    bio: "Marco Reda e Leonardo Talusi sono due telecronisti che raccontano partite sul panorama laziale e non solo, di promozione, eccellenza o comunque categorie importanti. La loro qualità nel raccontare le partite e il loro studio dietro ogni gara. Due ragazzi meravigliosi e due ragazzi assolutamente professionali. Tantissimi eventi ricoperti e fanno parte di un grande gruppo e di una grande famiglia = Live Sport Academy. Cronache, dirette streaming, riprese e tantissimo altro. Aneddoti, goal, curiosità… Tutto all’interno della puntata. Hanno anche loro un podcast che si chiama TRIDENTE PODCAST. Invitano ospiti sul mondo dello sport e sul mondo del calcio… tra giocatori dilettanti, giocatori di categorie importanti o persone che fanno riferimento allo sport in generale. Puntata assolutamente da non perdere! Tantissimi punti e argomenti trattati.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1785510370/Immagine_2_generata_2_j9pvlx.png",
+    videoUrl: "https://youtu.be/UFh3Ov6PDyw?si=OW2wLBe8WbUTmMDT",
+  },
+  {
+    name: "SALVATORE BRUNETTI",
+    bio: "Salvatore Brunetti é un mister di calcio di bambini e ragazzi. L’esperienza di due anni al Delfino Academy e la sua carriera calcistica in tantissime squadre del Lazio. Tra eccellenza e categorie importanti. Da sottolineare soprattutto i 3 anni al Civitavecchia che sono stati per lui molto positivi e molto importanti per il suo cammino. Una persona d’oro sotto tutti i punti di vista, dentro e fuori dal campo. La sua carica che trasmette ai ragazzi durante una partita o anche durante un allenamento. La sua forza, dedizione e coraggio. Un mister che ha studiato e continua a studiare… Da evidenziare il patentino UEFA C.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1785510703/Immagine_5_generata_l8u7iv.png",
+    videoUrl: "https://youtu.be/mvOpjP0y0PQ?si=CUZIndnS_9z8TVfB",
   },
   {
     name: "ENRICO ROSSIGNOLI",
@@ -81,6 +101,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/zgtL4ejM8Is?si=4qD-D3F9xibe549B",
   },
   {
+    name: "ALESSANDRO FERRARI",
+    bio: "Alessandro Ferrari é un giocatore di calcio a 11 molto veloce, rapido e determinato. La parentesi in Sardegna, Montespaccato, Magnitudo e anche il calcio a 8, con l’Atletico Alberone. Un mix di di calcio a 11 e calcio a 8. Nella puntata abbiamo approfondito tutta la sua carriera e le squadre che lo hanno reso protagonista. I suoi goal e i suoi assist in fase offensiva. Un mix anche di ruolo… Centrocampista e anche attaccante. Momenti felici e momenti negativi… tutto all’interno di questi 50 minuti abbondanti. Un ragazzo squisito sotto tutto i punti di vista. Gentile, socievole e rispettoso",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1785510317/Immagine_1_generata_7_xllblx.png",
+    videoUrl: "https://youtu.be/dtQzT-AwBGI?si=XsJUwLGtmBMv801q",
+  },
+  {
     name: "REAL TORRE MAURA",
     bio: "Danilo De Felice il presidente del Real Torre Maura e Gianluca Sforza il capitano. Due figure importantissime della squadra. Due ruoli fondamentali sia dentro che fuori dal campo della società. La grinta e la leadership di Gianluca Sforza e la visione dall'alto e la dedizione del presidente che ogni giorno, cerca di migliorare la squadra a 360°.",
     imageUrl:
@@ -100,6 +127,13 @@ const defaultGuests = [
     imageUrl:
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260311_095005_4d74e477-43ca-4a80-8bac-ab3c3d8b05a6.jpeg&w=1280&q=85",
     videoUrl: "https://youtu.be/3inQKTTrSyI?si=Idr2fHLnGTxe5YhF",
+  },
+  {
+    name: "EMANUELE DELLA PORTELLA",
+    bio: "Emanuele Della Portella é la figura principale della squadra della Lega Calcio a 8 (Gladiators). Il Capitano e il simbolo della squadra sotto tutti i punti di vista, dentro e fuori dal campo da gioco. Un ragazzo d’oro e un ragazzo squisito. La sua determinazione è la sua passione che lo contraddistingue all’interno del rettangolo verde. I suoi goal e l’organizzazione principale di tutto quello che riguarda il Gladiators. Vittorie, sconfitte, momenti felici e momenti difficili… Tutto all’interno della puntata. Lega Calcio a 8 in primo piano, Serie A2 - Serie B le categorie principali… Anche per quanto riguarda il Trofeo Città di Roma all’Atletico 2000.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1785510590/Immagine_3_generata_1_ewouqq.png",
+    videoUrl: "https://youtu.be/exPn7WtXJUI?si=xQK29iQMZOqQpPmm",
   },
   {
     name: "DARIO DE ROCCHIS",
