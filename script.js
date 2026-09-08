@@ -94,6 +94,20 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/4T-756D2O50?si=Nh9e9w_FehnqSgLO",
   },
   {
+    name: "PATRIZIO PASCUCCI",
+    bio: "Patrizio Pascucci é un giocatore e un attaccante di calcio fenomenale! Diversi anni nel professionismo… tra Lazio, Everton e l'FC Baulmes. Italia, Inghilterra e Svizzera. I suoi aneddoti incredibili nel ritiro in Austria nel 2003 con Rooney e Gravensen. L’esordio al Goodison Park tra Everton e Chelsea. E poi tantissime squadre tra promozione ed eccellenza… Torrenova, Morena, Pomezia, Boreale e tanto altro. L’amore infinito del nonno e del papà. La sua carriera a 360’… i suoi goal, momenti felici, momenti negativi e la sua vita. Una puntata speciale e una persona meravigliosa. Patrizio continua ancora a giocare tra diversi tornei amatoriali su Roma. La sua passione e il suo talento all’interno del rettangolo verde.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1788870917/PASCUCCI_mxgheh.png",
+    videoUrl: "https://youtu.be/NHCQ-5upohw?si=JUBkUUeCZ9ACChoy",
+  },
+  {
+    name: "MASSIMILIANO FERRETTI",
+    bio: "Massimiliano Ferretti é un granissimo mister di calcio a 8 soprattutto. Lega Calcio a 8 in primo piano e non solo… Tantissime squadre allenate… Ma ovunque é andato… Lui ha sempre vinto qualcosa!Preparatevi per una puntata davvero speciale… Abbiamo raccontato la sua carriera e la sua storia a 360’. Tantissimi anni di esperienza e diverse vittorie, con premi ricevuti. Dentro il campo di calcio cerca sempre di spronare i suoi giocatori con la giusta carica e motivazione. Ma se vogliamo parlare della persona che é fuori il campo… unico! Una persona davvero sul pezzo. Lui vive per il Calcio a 8. Tutta la sua competenza e tenacia. La sua passione verso la figura da mister inizia negli anni 90, più precisamente nel 1992 e fino ad oggi é sempre lì! Ad allenare e a far crescere i ragazzi con consigli e tanto altro. Puntata assolutamente da non perdere…",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1788870916/FERRETTI_kvs4iw.png",
+    videoUrl: "https://youtu.be/mUEPPNkx0jM?si=7P4EsOZ8wX2uppcU",
+  },
+  {
     name: "MATTEO LAROSA",
     bio: "Matteo LaRosa è un ragazzo squisito con un passato tra calcio e basket. Ci ha raccontato le sue esperienze nel mondo dello sport, sia nei suoi primi anni in ambito cestistico che in ambito calcistico, crescendo.",
     imageUrl:
@@ -129,11 +143,39 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/3inQKTTrSyI?si=Idr2fHLnGTxe5YhF",
   },
   {
+    name: "ALESSIO DE SANTIS",
+    bio: "Alessio De Santis é il presidente del Torrenova Calcio. Una figura e una colonna fondamentale della società. La sua professionalità e la preparazione su tutto quello che riguarda la squadra a 360’. Una persona davvero meravigliosa sotto tutti i punti di vista… Massima accortezza e massima concentrazione su tutte le categorie giovanili, dai più piccoli ai più grandi. Tantissimi successi con diversi campionati di vinti con la prima squadra. Ma anche diversi momenti negativi, come qualche retrocessione da Eccellenza a Promozione. Il suo passato da giocatore, il presente e il futuro come presidente. Una puntata dedicata al mondo Torrenova… ma anche una parentesi sulla famiglia… soprattutto il papà e il figlio. La sua passione e la sua forza di volontà! In puntata abbiamo parlato veramente di tantissime cose… Famiglia, calcio, successi, vittorie, sconfitte e obiettivi generali. Tantissimi anni ormai alla guida del Torrenova… la sua esperienza e la sua determinazione.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1788870422/alessiodesantis_1_brylvu.png",
+    videoUrl: "https://youtu.be/Kgy_poVQP40?si=0WtAwwLZCL-L-GFc",
+  },
+  {
+    name: "GHERARDO BERTOCCHI E ROBERTO GALFANO",
+    bio: "Gherardo Bertocchi e Roberto Galfano sono 2 mister di calcio giovanile. Hanno lavorato assieme alla Magnitudo con la categoria Under 18. Diverse vittorie e un campionato da protagonisti… con anche la semifinale conquistata di Coppa Lazio. Un anno pieno di emozioni e di soddisfazioni. Loro due si sono dimostrati dei punti di riferimento della società con professionalità e duro lavoro in primo piano. Allenamento dopo allenamento… Un gruppo unito e una grandissima voglia di vincere e di lavorare in un certo modo. Oltre le persone dentro il campo, loro al di fuori del rettangolo verde sono fantastici e fenomenali. Una coppia esplosiva e una coppia veramente unica. Una puntata come al solito piena di emozioni e aneddoti super. Una grandissima annata e stagione generale.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1788870240/duo_klxoqo.png",
+    videoUrl: "https://youtu.be/DOoB-xtCZ8M?si=nUOZ5H_HI5qSDvVm",
+  },
+  {
     name: "EMANUELE DELLA PORTELLA",
     bio: "Emanuele Della Portella é la figura principale della squadra della Lega Calcio a 8 (Gladiators). Il Capitano e il simbolo della squadra sotto tutti i punti di vista, dentro e fuori dal campo da gioco. Un ragazzo d’oro e un ragazzo squisito. La sua determinazione è la sua passione che lo contraddistingue all’interno del rettangolo verde. I suoi goal e l’organizzazione principale di tutto quello che riguarda il Gladiators. Vittorie, sconfitte, momenti felici e momenti difficili… Tutto all’interno della puntata. Lega Calcio a 8 in primo piano, Serie A2 - Serie B le categorie principali… Anche per quanto riguarda il Trofeo Città di Roma all’Atletico 2000.",
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1785510590/Immagine_3_generata_1_ewouqq.png",
     videoUrl: "https://youtu.be/exPn7WtXJUI?si=xQK29iQMZOqQpPmm",
+  },
+  {
+    name: "ERIK VASTA",
+    bio: "Erik Vasta é un giocatore di calcio a 11 e anche di calcio a 8. Un mix di categorie e un mix ovviamente di emozioni. Il suo piede mancino fenomenale, la sua tecnica e la sua classe all’interno del rettangolo verde.Diverse le esperienze nel calcio a 11… Fino ai giorni d’oggi… Casalbarriera (Promozione). Calcio a 8 invece con la As Roma con mister Massimiliano Ferretti. Ha vinto tantissime coppe, premi, ma anche diverse sconfitte nella sua carriera calcistica. Una persona meravigliosa sotto tutto i punti di vista… un ragazzo d’oro e una persona unica. Tantissimi goal e assist… Da evidenziare ovviamente la sua esperienza con Francesco Totti… quando ha giocato 2/3 anni insieme a lui, alla Totti appunto (Calcio a 8). Tantissimi aneddoti e tantissime storie dentro e fuori dal campo. Il suo rapporto con diversi compagni stretti e unici… come ad esempio Nico Federici. Una puntata piena di sorprese e calcio in primissimo piano.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1788870245/erikvasta_gajerc.png",
+    videoUrl: "https://youtu.be/Nk97YNw9Nu8?si=EjfhSsaoo7Fxkwf4",
+  },
+  {
+    name: "MARCO COLONNA",
+    bio: "Marco Colonna é un arbitro di calcio di varie categorie e vari tornei in giro su Roma e non solo. Calcio a 5 - 8 e a 11, partite di bambini / ragazzi, fino ad arrivare ai più grandi. Oltre ai giocatori, presidenti e mister… abbiamo anche una figura arbitrale. Abbiamo approfondito tantissimi punti sul mondo arbitro… regole, episodi var, statistiche all’interno del regolamento, rapporto con i giocatori e tantissimo altro. Tantissima esperienza sui campi, ormai sono + di 10 anni che ricopre il ruolo del direttore di gara. Una persona fantastica sotto tutti i punti di vista, dentro e soprattutto fuori dal campo. Le sue caratteristiche principali: Concentrazione, attenzione e professionalità.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1788870244/marcocolonna_zaekaq.png",
+    videoUrl: "https://youtu.be/DlRpB--Auzc?si=I6Rg5srpnjprdu9x",
   },
   {
     name: "DARIO DE ROCCHIS",
@@ -182,9 +224,9 @@ const defaultGuests = [
 
 const defaultStats = {
   ytSubs: 4100,
-  ytViews: 97000,
-  tkViews: 114000,
-  hours: 600,
+  ytViews: 150000,
+  tkViews: 160000,
+  hours: 1000,
 };
 
 // ALWAYS use the default guests from this file as the base.
@@ -288,9 +330,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalVideoLink = document.getElementById("modal-video-link");
   const modalClose = document.getElementById("modal-close");
 
+  function optimizeImageUrl(url, width) {
+    if (!url) return url;
+    let optimized = url;
+    if (
+      optimized.includes("res.cloudinary.com") &&
+      !optimized.includes("q_auto")
+    ) {
+      optimized = optimized.replace(
+        "/upload/",
+        `/upload/q_auto,f_auto,w_${width}/`,
+      );
+    }
+    if (optimized.includes("images.higgs.ai")) {
+      optimized = optimized.replace(/w=\d+/, `w=${width}`);
+    }
+    return optimized;
+  }
+
   function openGuestModal(guest) {
     if (!guestModal) return;
-    modalImage.src = guest.imageUrl;
+    modalImage.src = optimizeImageUrl(guest.imageUrl, 1200);
     modalImage.alt = guest.name;
     modalName.textContent = guest.name;
     modalBio.textContent = guest.bio;
@@ -332,9 +392,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.className = "guest-card";
       const vidUrl = guest.videoUrl ? guest.videoUrl : "#";
+      const optimizedImgUrl = optimizeImageUrl(guest.imageUrl, 600);
       card.innerHTML = `
                 <div class="guest-image-wrapper">
-                    <img src="${guest.imageUrl}" alt="${guest.name}" class="guest-image" loading="lazy">
+                    <img src="${optimizedImgUrl}" alt="${guest.name}" class="guest-image" loading="lazy">
                 </div>
                 <h3 class="guest-name">${guest.name}</h3>
                 <p class="guest-bio">${guest.bio}</p>

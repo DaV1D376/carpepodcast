@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="IMAGES/HERO%20GRANDE.png" media="(min-width: 769px)">
+    <link rel="preload" as="image" href="IMAGES/HERO%20MOBILE%202.png" media="(max-width: 768px)">
     <link rel="stylesheet" href="styles.css?v=13">
 </head>
 
@@ -26,7 +28,7 @@
     <header class="hero">
         <picture>
             <source media="(max-width: 768px)" srcset="IMAGES/HERO%20MOBILE%202.png">
-            <img src="IMAGES/HERO%20GRANDE.png" alt="Davide Carpentieri Hero" class="hero-img">
+            <img src="IMAGES/HERO%20GRANDE.png" alt="Davide Carpentieri Hero" class="hero-img" fetchpriority="high">
         </picture>
         <div class="hero-overlay">
             <span class="signature">Davide Carpentieri</span>
