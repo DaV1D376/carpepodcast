@@ -17,6 +17,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/ke8zlZAtvik?is=UB-Xv6GIv7H6_BEY",
   },
   {
+    name: "ANDREA ZENOBI",
+    bio: "Andrea Zenobi é il presidente del Memorial Baffoni. Un torneo storico di Roma… 14/15 anni di storia. Ancora tutt’oggi continua la tradizione di giocare e divertirsi in mezzo al campo. Il Presidente ci racconta all’interno della puntata, la storia completa, tra passato, presente e futuro. Una persona meravigliosa sotto tutti gli aspetti. La sua professionalità e la sua esperienza. Torneo di Calcio a 5, presso il campo del Borghesiana. Tantissima qualità espressa durante le gare. Un vero e proprio torneo serio, con kit da gioco, timer, classifiche finali e diversi premi.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095921/ANDREA_ZENOBI_esupyp.png",
+    videoUrl: "https://youtu.be/2QL20_sJyyI",
+  },
+  {
     name: "MAURO SIGISMONDI",
     bio: "Mauro Sigismondi è una delle tantissime colonne della squadra Sangiovannella. Un uomo con dei valori e dei principi. La sua dedizione, la sua determinazione e la tenacia dentro e fuori lo spogliatoio. Non molla mai, neanche un centimetro, per il gruppo e per la squadra in generale. Lui risponde sempre presente, soprattutto nei momenti più difficili e complicati della stagione. Tutti gli approfondimenti del mondo Sangiovannella e non solo, li trovate nella puntata integrale sul canale.",
     imageUrl:
@@ -43,6 +50,13 @@ const defaultGuests = [
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1780255328/6edcd018-d36c-4666-aeb7-2fcc1057cebe_1_fz36ts.png",
     videoUrl: "https://youtu.be/hI9cQrg5WDY?si=BSPNJPKkO2rpFjqA",
+  },
+  {
+    name: "EMMANUELE STASI",
+    bio: "Emmanuele Stasi é un ragazzo giovanissimo che già si é inserito da anni nel mondo del giornalismo sportivo. Interviste, interventi in radio, eventi in generale… insomma un ragazzo super professionale e preparato. Founder di Haizoomato e addetto stampa per il Guidonia Montecelio e Kappa Soccer Cup. Collabora attivamente anche con la società Nova 7 con le sue telecronache e tantissimo altro. Tantissime interviste a ex giocatori e personaggi nel mondo del calcio. Diverse esperienze anche relative al calciomercato… un ragazzo molto impegnato, con molte attività da portare a termine. La sua dedizione verso questo mestiere e verso un sogno che si avvicina sempre di più. Ragazzo veramente fantastico! Puntata strepitosa…",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095921/STASI_b3zoce.png",
+    videoUrl: "https://youtu.be/A5niXfr9cV8",
   },
   {
     name: "LORENZO RUBINETTI",
@@ -80,6 +94,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/qdaCi0gNcKs?si=Dy3GYxtCmMudIhx1",
   },
   {
+    name: "DANIELE SCHIAVON",
+    bio: "Daniele Schiavon é un giocatore molto grintoso e competitivo. Un mix di ruoli, tra centrocampista e soprattutto difensore. Lui non si risparmia mai! Da sempre il 100%, anche se é una partita amichevole. Tantissime le sue esperienze e squadre nella sua carriera… il suo passato tra Promozione ed Eccellenza. La vittoria del Campionato a Terracina, la rimonta con il Fiumicino fino alla vetta, il mondo Lega Calcio a 8 e la nazionale italiana di calciotto. E poi anche la parentesi della Creators Football League. Insomma un bagaglio ricco di partite ed esperienze legate al mondo del calcio e dello sport in generale. Fuori il rettangolo verde é una persona meravigliosa e una persona fantastica! Una puntata clamorosa, da non perdere!",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095922/SCHIAVON_w2gtvf.png",
+    videoUrl: "https://youtu.be/lAp5RwOsXPk",
+  },
+  {
     name: "FABRIZIO PASQUALETTI",
     bio: "Fabrizio Pasqualetti è il direttore della squadra Core De Roma (squadra della Lega Calcio a 8). Una figura all'interno della società indispensabile e fondamentale. Un simbolo di questa squadra e di questa società. Se parliamo di Core De Roma, parliamo ovviamente di Fabrizio Pasqualetti, che ci ha raccontato nei minimi dettagli l'organizzazione, il dietro le quinte e gli obiettivi societari. Una persona d'oro sotto tutti i punti di vista.",
     imageUrl:
@@ -108,6 +129,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/mUEPPNkx0jM?si=7P4EsOZ8wX2uppcU",
   },
   {
+    name: "GIUSEPPE DE BERNARDO",
+    bio: "Giuseppe De Bernardo é uno dei portieri più esperti e conosciuti su Roma e non solo. Detiene anche il record di rigori parati consecutivamente! Sono ben 12 i rigori pararti durante l’anno che ha giocato al Rocca Priora. Tantissimi premi individuali e guanti d’oro ricevuti. Presente anche nella Nazionale Italiana, mondiali svolti in Messico e Brasile. Una figura fondamentale anche nel mondo Lega Calcio a 8, con tantissime squadre e realtà diverse. Una vita tra i pali! La sua intelligenza ed esperienza all’interno del rettangolo verde. Fuori il campo, lui é una persona squisita sotto tutto i punti di vista. Una puntata davvero fantastica, da non perdere per nessun motivo.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095924/DE_BERNARDO_lbq4sj.png",
+    videoUrl: "https://youtu.be/GrC4oE8u6q8",
+  },
+  {
     name: "MATTEO LAROSA",
     bio: "Matteo LaRosa è un ragazzo squisito con un passato tra calcio e basket. Ci ha raccontato le sue esperienze nel mondo dello sport, sia nei suoi primi anni in ambito cestistico che in ambito calcistico, crescendo.",
     imageUrl:
@@ -134,6 +162,13 @@ const defaultGuests = [
     imageUrl:
       "https://res.cloudinary.com/day5drjzw/image/upload/v1780256736/ChatGPT_Image_31_mag_2026_21_45_26_jka3r2.png",
     videoUrl: "https://youtu.be/0cYkpM9Cim0?si=5jpaJ7-pAl1dUJZK",
+  },
+  {
+    name: "SALVATORE ZAFFIRO",
+    bio: "Salvatore Zaffiro é una leggenda italiana del Calcio a 5. Premiato anche all’interno della sala del Coni. Capitano della nazionale italiana… Livello internazione, tra mondiali ed europei. La finale mondiale a Taipei contro la Spagna e la finale dell’Europeo contro l’Ucraina a Napoli. Il secondo posto al mondiale e la medaglia d’oro all’europeo! Un palmares veramente ricco di trofei e soddisfazioni. La sua vita e la sua carriera dall’inizio alla fine… Una persona buona e gentile fuori il campo da calcio. I suoi goal e i suoi ricordi di una carriera incredibile. Una storia a tratti emozionante e anche molto sincera. Preparatevi per una puntata imperdibile!",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095923/ZAFFIRO_rz2emb.png",
+    videoUrl: "https://youtu.be/e6n86uRy6aU",
   },
   {
     name: "EDOARDO TERENZI",
@@ -178,6 +213,13 @@ const defaultGuests = [
     videoUrl: "https://youtu.be/DlRpB--Auzc?si=I6Rg5srpnjprdu9x",
   },
   {
+    name: "STEFANO CENSONI",
+    bio: "Stefano Censoni é il responsabile della nazionale italiana paralimpica. Allenatore dell’italia di Hockey sul prato e un uomo di sport a 360! Il mondiale vinto di Hockey sul prato e la medaglia d’oro conquistata in finale contro la Spagna per 5 - 4… durante appunto il mondiale in Belgio e Olanda. La sua bontà e la sua voglia di far del bene alle persone. Lui ci insegna all’interno della puntata, l’importanza dello sport, i sacrifici e la costanza. La sua carriera da allenatore, team manager tra Marino e Fiumicino e tantissimi altri ruoli affrontati… Una storia emozionante e profonda… una puntata fantastica!",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095923/CENSONI_a9jopm.png",
+    videoUrl: "https://youtu.be/UcDclZ0pQHg",
+  },
+  {
     name: "DARIO DE ROCCHIS",
     bio: "Dario De Rocchis è un coach di basket, che ha fatto tantissime esperienze e allenato in diverse squadre. Stella Azzurra, HSC, Stelle Marine e tantissimo altro... Un coach molto preparato e professionale sotto tutti i punti di vista. Puntata perfetta per tutti gli appassionati del basket a 360°",
     imageUrl:
@@ -204,6 +246,13 @@ const defaultGuests = [
     imageUrl:
       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_3Aj3LGDrJQ6muAq1AFLqy07zYqH%2Fhf_20260331_212433_d91d2bcc-f27d-4878-ba4c-a353759072a3.png&w=1280&q=85",
     videoUrl: "https://youtu.be/HcWEAZTpQ6M?si=Y10_294hmY3P2Uwc",
+  },
+  {
+    name: "ANDREA CALCIOLI",
+    bio: "Andrea Calcioli é un organizzatore di tornei di calcio giovanile e amatoriale su Roma. Più di 25 anni di esperienza e attività su questo mondo. Tornei realizzati anche sul sociale e non solo… Oltre a organizzatore tornei, ha lavorato anche in radio a ricopre momentaneamente il ruolo da direttore nel Torrenova Calcio. All’interno della puntata, abbiamo approfondito la sua vita e la sua carriera a 360’. I primi anni di gavetta, poi duro lavoro e sacrificio, fino ad arrivare ai giorni d’oggi! Una persona meravigliosa sotto tutto gli aspetti e un organizzatore professionale, preparato e competente.",
+    imageUrl:
+      "https://res.cloudinary.com/day5drjzw/image/upload/v1793095924/CALCIOLI_tyxu3n.png",
+    videoUrl: "https://youtu.be/fW5B8RGielk",
   },
 
   {
